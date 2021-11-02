@@ -1,0 +1,48 @@
+.es-field, .es-field__wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .es-field__label {
+    flex: 0 1 38%;
+    padding-right: 2%;
+  }
+
+  .es-field__content, .es-field__input {
+    flex: 1 0 60%;
+    position: relative;
+
+    input:not(.select2-search__field):not(.ed_button), select, textarea {
+      width: 100%;
+      height: 28px;
+      background: #fff;
+      box-shadow: 0 0 0;
+      border: 1px solid #e2e2e2;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    input, select {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+
+    //.select2 {
+    //  min-height:26px;
+    //  width: 100% !important;
+    //
+    //  .selection {
+    //    min-height:26px;
+    //  }
+    //
+    //  .select2-selection {
+    //    min-height:26px;
+    //  }
+    //
+    //  .select2-search__field {
+    //    margin: 0;
+    //  }
+    //}
+  }
+}

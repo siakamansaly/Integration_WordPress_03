@@ -1,0 +1,40 @@
+.es-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &.es-icon_listings {
+    background-image: url(../../images/listings.svg);
+  }
+
+  &.es-icon_request-form {
+    background-image: url(../../images/request-form.svg);
+  }
+
+  &.es-icon_slider {
+    background-image: url(../../images/slider.svg);
+  }
+
+  &.es-icon_search-form {
+    background-image: url(../../images/search-form.svg);
+  }
+
+  &.es-icon_login {
+    background-image: url(../../images/login.svg);
+  }
+
+  &.es-icon_register {
+    background-image: url(../../images/register.svg);
+  }
+
+  &.es-icon_profile {
+    background-image: url(../../images/profile.svg);
+  }
+
+  &.es-icon_reset-pwd {
+    background-image: url(../../images/reset-pwd.svg);
+  }
+}

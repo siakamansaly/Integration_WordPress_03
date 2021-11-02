@@ -1,0 +1,32 @@
+// Pagination styles.
+.post-type-archive-properties, .es-wrap {
+  .pagination {
+    border: 0;
+
+    &:before, &:after {
+      background-color: transparent;
+      content: '';
+    }
+
+    .nav-links {
+      padding-right: 0;
+      text-align: center;
+
+      .page-numbers {
+        color: #9e9e9e;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 8px;
+        border: 0 !important;
+
+        &.current {
+          color: #ff9600;
+        }
+
+        &:hover {
+          color: #ff9600;
+        }
+      }
+    }
+  }
+}

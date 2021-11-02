@@ -1,0 +1,121 @@
+.post-type-properties .wp-list-table thead {
+    background: -webkit-linear-gradient(#fff, #f2f2f2);
+    background: -o-linear-gradient(#fff, #f2f2f2);
+    background: -moz-linear-gradient(#fff, #f2f2f2);
+    background: linear-gradient(#fff, #f2f2f2);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#f2f2f2');
+}
+
+.post-type-properties .wp-list-table thead th {
+    color: #444950;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-right: 1px solid #e6e9ee;
+    height: 32px;
+}
+
+.post-type-properties .check-column {
+    vertical-align: middle;
+}
+
+.post-type-properties .check-column input {
+
+}
+
+.post-type-properties .column-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.post-type-properties .column-post_id, .post-type-properties .column-thumbnail {
+    width: 8%;
+}
+
+.post-type-properties .column-thumbnail {
+    padding-top: 12px;
+}
+
+.post-type-properties .row-actions {
+    font-size: 15px;
+}
+
+.post-type-properties .wp-list-table tbody td {
+    vertical-align: middle;
+}
+
+.post-type-properties .wp-list-table tfoot th, .post-type-properties .wp-list-table thead td {
+    text-align: center;
+}
+
+.post-type-properties .wp-list-table tbody td, .post-type-properties .wp-list-table tbody th {
+    text-align: center;
+    border-bottom: 1px solid #d1d5db !important;
+}
+
+@media screen and (max-width: 782px) {
+    .post-type-properties .wp-list-table tbody td, .post-type-properties .wp-list-table tbody th {
+        border: 0 !important;
+    }
+}
+
+.post-type-properties .alignleft.actions, .post-type-properties .search-box {
+    display: none;
+}
+
+.post-type-properties .page-title-action:before {
+    content: '+';
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.post-type-properties .wp-list-table th span {
+    float:none;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+}
+
+.post-type-properties .wp-list-table th span.sorting-indicator {
+    top:4px;
+}
+
+.post-type-properties .tablenav {
+    height: inherit;
+}
+
+.type-properties.status-draft {
+    opacity: 0.5;
+}
+
+.type-properties tbody th input {
+    margin: 0!important;
+}
+
+.post-type-properties tbody th.check-column {
+    padding: 18px 0 0 3px !important;
+}
+
+.es-property__image-wrap {
+    position: relative;
+    border: 1px solid #868B94;
+}
+
+.es-property__image-wrap img {
+    display: block;
+}
+
+.es-image__count-wrap {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    background: url(../../../../assets/images/photo-icon.png) 10px center no-repeat rgba(255, 255, 255, 0.8);
+    background-position: right 4px center;
+    background-size: 15px auto;
+    font-size: 12px;
+    text-align: right;
+    padding: 0 24px 0 0;
+    box-sizing: border-box;
+}
+

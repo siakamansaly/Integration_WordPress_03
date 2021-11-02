@@ -1,0 +1,65 @@
+.es-wrap .nav-tab-wrapper, .property-data-tabs.nav-tab-wrapper {
+  padding: 0;
+}
+
+.nav-tab-wrapper {
+  width: 100%;
+  display: flex !important;
+  flex-wrap: wrap;
+
+  // Tabs navigation.
+  &>ul{
+    width: 100%;
+    flex: 1 0 14%;
+    margin:0;
+    padding:0;
+    background: #f8fafb;
+    min-width: 100px;
+
+    li {
+      padding: 0;
+      margin:0;
+      outline: none !important;
+      background: #f8fafb;
+      border-bottom: 1px solid #e6e9ee;
+      border-right: 1px solid #e6e9ee;
+
+      a {
+        font-size: 13px;
+        padding: 20px 0 20px 20px;
+        display: block;
+      }
+
+      &.active {
+        background: -webkit-linear-gradient(#fff, #f2f2f2);
+        background: -o-linear-gradient(#fff, #f2f2f2);
+        background: -moz-linear-gradient(#fff, #f2f2f2);
+        background: linear-gradient(#fff, #f2f2f2);
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#f2f2f2');
+        border-right: 0;
+
+        a {
+          font-weight:bold;
+          color: #444950;
+        }
+      }
+
+      &:hover {
+        background:#fff;
+
+        & a{
+          color:#389fff;
+        }
+      }
+    }
+  }
+
+  // Tab content.
+  .es-tab {
+    flex: 0 1 82%;
+    width: 100%;
+    padding:1% 2%;
+    font-size: 13px;
+    display: none;
+  }
+}

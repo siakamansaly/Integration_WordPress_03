@@ -1,0 +1,308 @@
+$space-between-input: 5%;
+
+.widget_es_search_widget.es-widget {
+  width: 100%!important;
+}
+
+.select2-dropdown {
+  border: 1px solid #e2e2e2;
+  border-radius: 0;
+}
+
+.select2-results__option[aria-selected] {
+  font-size: 15px;
+  padding: 2px 12px 2px 12px !important;
+  color:#111;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.select2-results__option--highlighted, .select2-results__option:hover {
+  background-color: #e2e2e2 !important;
+  color:#111 !important;
+}
+
+body .es-search__wrapper {
+  background: #f0f0f0;
+  padding: 20px 20px 10px 20px;
+  color: #707070;
+  font-family: 'Open Sans', sans-serif;
+
+  // Search title.
+  .widget-title, .widgettitle {
+    color:#1d1d1d;
+    line-height: 1.1;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .es-search__field {
+    margin: 10px 0;
+
+    &>input {
+      height: 28px;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    input {
+      margin-bottom: 0;
+    }
+
+    .es-field__label {
+      color: #1d1d1d;
+      line-height: 20px;
+      font-size: 14px;
+
+      label {
+        display: inline;
+        font-weight: 400;
+        margin: 0;
+        font-size: 14px;
+      }
+    }
+
+    .es-field__wrap {
+      input, select {
+        background: #fff;
+        box-shadow: 0 0 0;
+        border: 1px solid #e2e2e2;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      &>select, &>input {
+        width: 100%;
+        height: 28px;
+      }
+
+      .select2 {
+        width: 100% !important;
+        font-size: 13px;
+        line-height: 1;
+
+        * {
+          font-family: 'Open Sans', sans-serif;
+        }
+
+        .select2-search {
+          margin:0;
+          padding: 0;
+          border: 0;
+        }
+
+        .select2-selection--multiple {
+          padding: 2px !important;
+          min-height:24px !important;
+        }
+
+        .select2-selection__rendered {
+          padding: 0;
+          display: block !important;
+          margin-bottom: -2px;
+          line-height: 24px;
+        }
+
+        .select2-selection__choice__remove {
+          color:#fff;
+        }
+
+        .select2-selection {
+          border: 1px solid #e2e2e2;
+          border-radius: 0;
+          padding: 1px 7px;
+        }
+
+        .select2-selection__choice {
+          border-radius: 0;
+          border: 0;
+          background: #ff9600;
+          color: #fff;
+          font-size: 13px;
+          padding: 4px;
+          /* margin: 0 !important; */
+          margin: 0 2px 2px 0;
+        }
+
+        .select2-search__field {
+          border: 0;
+          margin: 0;
+          font-size: 13px;
+          padding-left: 5px !important;
+          position: relative;
+          top: -1px;
+
+          &::-webkit-input-placeholder {
+            color: #999;
+          }
+        }
+      }
+
+      .es-field__range {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        input, select {
+          width: 50% - ($space-between-input / 2);
+          height: 28px;
+          min-width: 0;
+        }
+
+        input {
+          text-align: center;
+        }
+      }
+
+      &.es-field__wrap--units {
+        .es-field__range {
+          input, select {
+            min-width: 0;
+            width: 33% - ($space-between-input / 3);
+            height: 28px;
+          }
+        }
+      }
+    }
+
+    &.es-search__field--address {
+      margin: 15px 0;
+
+      .es-field__label {
+        display: none;
+      }
+
+      input {
+        width: 100%;
+      }
+    }
+  }
+
+  .es-search__buttons {
+    input {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &.es-search__wrapper--vertical {
+    .es-search__field {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+
+      .es-field__wrap {
+        flex: 1 0 70%;
+      }
+
+      .es-field__label {
+        flex: 0 1 28%;
+        padding-right: 2%;
+      }
+    }
+
+    .es-search__buttons {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 10px (-$space-between-input / 2) 0 (-$space-between-input / 2);
+
+      .es-button__wrap {
+        flex: 1 0 50% - $space-between-input;
+        padding: 0 ($space-between-input / 2);
+      }
+    }
+  }
+
+  .es-button__wrap {
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      line-height: 34px;
+      text-transform: uppercase;
+      padding: 10px 0;
+    }
+  }
+
+  &.es-search__wrapper--horizontal{
+    padding: 10px;
+
+    .widget-title {
+      padding: 10px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+
+      .es-search__buttons {
+        order: -1;
+        -webkit-order: -1;
+        display: flex;
+
+        @media screen and (max-width: 450px){
+          order: 9999;
+          -webkit-order: 9999;
+        }
+
+        input {
+          width: 100%;
+          padding: 10px 0;
+          margin-bottom: 0;
+        }
+
+        .es-button__wrap {
+          box-sizing: border-box;
+          flex: 1 0 50%;
+          padding: 0 ($space-between-input / 2);
+
+          input {
+            padding: 10px 0;
+          }
+        }
+      }
+
+      .es-search__field, .es-search__buttons {
+        flex: 1 0 calc(33.3% - 20px);
+        width: 100%;
+        padding: 0 10px;
+        min-width: 170px;
+        flex-wrap: wrap;
+
+        .js-es-save-search {
+          margin-top: 10px;
+        }
+
+        &.es-search__field--address {
+          flex: 2 0 66.6%;
+          order: -2;
+          -webkit-order: -2;
+        }
+      }
+    }
+  }
+}
+
+.es-search__message {
+  padding: 4px !important;
+
+  i.fa {
+    margin: 0 3px;
+  }
+
+  color:#111;
+
+  &.es-search__message-error {
+    border: 1px solid red;
+
+    i {
+      color: red;
+    }
+  }
+}

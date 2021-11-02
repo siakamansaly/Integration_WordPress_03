@@ -1,0 +1,134 @@
+.est-form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.est-field {
+  padding: 5px 10px;
+  flex: 1;
+
+  label {
+    font-size: 13px;
+    color: #727983;
+    display: block;
+    padding-bottom: 7px;
+  }
+
+  .est-field__content {
+
+    input[type=text], input[type=number], input[type=password] {
+      color: rgb(66, 66, 66);
+      font-size: 14px;
+      line-height: 24px;
+      padding: 3px 9px;
+      box-shadow: none;
+      width: 100%;
+      outline: none;
+      border-width: 1px;
+      border-color: rgb(229, 229, 229);
+      border-style: solid;
+      border-radius: 2px;
+      background: #fff;
+      margin: 0;
+      height: 30px;
+    }
+
+    select {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    &:after {
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      position: absolute;
+      content: "\f107";
+      color: rgb(117, 117, 117);
+      z-index: -1;
+      font-size: 20px;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      width: 25px;
+      text-align: center;
+    }
+
+    &.est-field__content__select {
+      position: relative;
+      display: block;
+      margin: 0 auto;
+      border-width: 1px;
+      border-color: rgb(229, 229, 229);
+      border-style: solid;
+      border-radius: 2px;
+      background: #fff;
+      z-index: 10;
+
+      select:not([multiple]) {
+        width: 100%;
+        border: none;
+        outline: none;
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0;
+        margin: 0;
+        display: block;
+        color: rgb(66, 66, 66);
+        box-shadow: none;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 3px 9px;
+      }
+    }
+
+    .select2 {
+      min-height: 30px;
+
+      .select2-selection {
+        border-width: 1px;
+        border-color: rgb(229, 229, 229);
+        border-style: solid;
+        border-radius: 2px;
+      }
+
+      .select2-selection:not(.select2-selection--multiple) {
+        height: 32px;
+      }
+
+      .select2-dropdown {
+        border-width: 1px;
+        border-color: rgb(229, 229, 229);
+        border-style: solid;
+      }
+
+      .select2-selection--multiple {
+        min-height: 30px;
+
+        .select2-selection__rendered {
+          padding: 0;
+        }
+      }
+
+      .select2-selection__choice {
+        background: #54b900;
+        color: #fff;
+        border: 0;
+        border-radius: 0;
+        margin: 1px 1px 0 1px;
+        padding: 5px 5px;
+
+        .select2-selection__choice__remove {
+          color:#fff;
+        }
+      }
+    }
+
+  }
+}
+
+

@@ -1,0 +1,141 @@
+$field-wrapper-max-width: 480px;
+$field-label-width: 50%;
+$field-content-width: 100% - $field-label-width;
+
+.es-field {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: $field-wrapper-max-width;
+  min-height: 30px;
+  margin: 8px 0;
+  flex-wrap: wrap;
+
+  &.es-field__full-width {
+    max-width: 100%;
+
+    .es-field__label {
+      flex: 1 0 100%;
+      margin-bottom: 10px;
+    }
+
+    .es-field__content {
+      flex: 1 0 100%;
+
+      .wp-editor-wrap {
+        width: 100%;
+      }
+    }
+  }
+
+  &.es-field-hidden {
+    display: none;
+  }
+
+  .es-field__label {
+    flex: 1 0 $field-label-width;
+    min-width: 120px;
+    width: 100%;
+
+    .fa {
+      color:#C7CDD9;
+      margin-right: 6px;
+      font-size: 15px;
+    }
+
+    .fa-facebook {
+      margin-right: 16px;
+    }
+
+    .fa-twitter {
+      margin-right: 11px;
+    }
+
+    .fa-linkedin {
+      margin-right: 12px;
+    }
+
+    .fa-file-pdf-o {
+      margin-right: 12px;
+    }
+  }
+
+  .es-field__content {
+    display: flex;
+    align-items: center;
+    flex: 0 1 $field-content-width;
+    width: 100%;
+
+    input:not([type=radio]):not(.ed_button):not([type=checkbox]), select:not(.ed_button) {
+      width: 100%;
+    }
+
+    input[type=color] {
+      width: 50px;
+    }
+
+    .wp-picker-active {
+      display: flex;
+
+      .wp-picker-input-wrap {
+        display: flex;
+      }
+    }
+
+    .wp-picker-holder {
+      position: absolute;
+      margin-top: 25px;
+    }
+  }
+
+  &.es-field-custom {
+    .es-field__content {
+      justify-content: space-between;
+
+      input:first-child, select:first-child {
+        width: 90%;
+      }
+
+      a.js-es-remove-custom {
+        height: 16px;
+      }
+    }
+  }
+
+  &.es-field-area, &.es-field-lot_size {
+    .es-field__content {
+      input:first-child, select:first-child {
+        flex: 1 0 68%;
+      }
+    }
+  }
+}
+
+.es-field__wrapper--bordered {
+  padding: 8px;
+  background: #f2f5f9;
+  border-radius: 2px;
+}
+
+.es-field__wrapper {
+  display: inline-flex;
+  align-items: center;
+  max-width: 350px;
+  width: 100%;
+
+  .es-field__label {
+    flex: 1 0 30%;
+  }
+
+  .es-field__input input {
+    width: 100%;
+  }
+
+  .es-field__input {
+    flex: 1 0 70%;
+  }
+}
+
+.es-field-file .es-field__content {
+  flex-wrap: wrap;
+}

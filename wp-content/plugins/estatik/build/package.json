@@ -1,0 +1,25 @@
+{
+  "name": "estatik",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "babel-preset-es2015": "^6.14.0",
+    "cssnano": "^3.4.0",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-pixrem": "^0.1.2",
+    "grunt-postcss": "^0.8.0",
+    "load-grunt-tasks": "^3.5.2",
+    "motion-ui": "^1.1.1",
+    "pixrem": "^3.0.0",
+    "postcss-flexbox": "^1.0.2"
+  }
+}

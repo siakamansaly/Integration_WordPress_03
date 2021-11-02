@@ -1,0 +1,120 @@
+.es-layout-list {
+  .properties {
+    margin: 0;
+  }
+
+  .es-col-view {
+    display: none;
+  }
+
+  .es-property-inner {
+    display: flex !important;
+      width: 100%;
+
+    .es-property-thumbnail {
+      width: 35%;
+
+      .es-thumbnail {
+        height: 100%;
+
+        a {
+          display: block;
+          width: 100%;
+          height: 100%;
+
+          img {
+            object-fit: cover;
+            height: 100% !important;
+            width: 100% !important;
+          }
+        }
+      }
+    }
+
+    .es-property-info {
+      width: 65%;
+      padding-left: 20px;
+      font-size: 14px;
+      position: relative;
+
+      h2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        a {
+          font-size: 18px;
+        }
+      }
+
+      .es-property-content {
+        display: flex;
+        margin-bottom: 30px;
+
+        .es-property-excerpt {
+          font-size: 12px;
+          max-height: 70px;
+          overflow: hidden;
+          padding-right: 10px;
+          box-sizing: border-box;
+          line-height: 20px!important;
+          flex: 1 0;
+
+          p {
+            line-height: 20px!important;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .es-bottom-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      align-self: flex-end;
+      width: calc(100% - 20px);
+      position: absolute;
+      bottom: 0;
+
+      .es-bottom-icon-list {
+        .es-bottom-icon {
+          margin-right: 20px;
+          font-size: 12px;
+        }
+      }
+
+      .es-bottom-icon-cols {
+        display: none;
+      }
+
+      .es-details-flex {
+        text-align: right;
+      }
+
+      .es-map-link-wrap {
+        margin-bottom: 10px;
+
+        .es-map-view-link {
+          text-decoration: none;
+          box-shadow: none;
+        }
+      }
+    }
+
+    .es-hover-show {
+      display: none;
+    }
+
+    &:hover {
+      .es-hover-show {
+        display: inline-block !important;
+      }
+
+      .es-property-excerpt {
+        padding-right: 70px !important;
+      }
+    }
+  }
+}

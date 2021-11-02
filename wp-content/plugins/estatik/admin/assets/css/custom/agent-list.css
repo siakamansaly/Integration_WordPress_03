@@ -1,0 +1,111 @@
+.es-agent-list-page .wp-list-table thead {
+    background: -webkit-linear-gradient(#fff, #f2f2f2);
+    background: -o-linear-gradient(#fff, #f2f2f2);
+    background: -moz-linear-gradient(#fff, #f2f2f2);
+    background: linear-gradient(#fff, #f2f2f2);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#f2f2f2');
+}
+
+.es-agent-list-page .wp-list-table thead th {
+    color: #444950;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-right: 1px solid #e6e9ee;
+    height: 32px;
+    padding: 8px 0;
+}
+
+.es-agent-list-page .check-column {
+    vertical-align: middle;
+}
+
+.es-agent-list-page .es-agent-avatar {
+    width: 30px;
+    height: auto;
+}
+
+.es-agent-list-page .check-column input {
+    /*margin-top: -6px;*/
+}
+
+.es-agent-list-page .row-actions {
+    font-size: 15px;
+}
+
+.es-agent-list-page .wp-list-table tbody td {
+    vertical-align: middle;
+}
+
+.es-agent-list-page .wp-list-table tfoot th, .es-agent-list-page .wp-list-table thead td {
+    text-align: center;
+    height: 32px;
+    padding: 8px 0;
+}
+
+.es-agent-list-page .wp-list-table tbody td, .es-agent-list-page .wp-list-table tbody th {
+    text-align: center;
+    border-bottom: 1px solid #d1d5db !important;
+}
+
+.es-agent-list-page .page-title-action:before {
+    content: '+';
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.es-agent-list-page .wp-list-table th span {
+    float:none;
+    display: inline-block;
+    position: relative;
+}
+
+.es-agent-list-page .wp-list-table th span.sorting-indicator {
+    top: -5px;
+}
+
+.es-agent-list-page .tablenav {
+    height: inherit;
+}
+
+.es-agent-list-page .alignleft.actions {
+    width: 100%;
+}
+
+.es-agent-list-page .alignleft.actions > input, .es-agent-list-page .alignleft.actions > select, .es-agent-list-page .alignleft.actions > label {
+    display: none;
+}
+
+.es-agent-list-page .alignleft.actions.bulkactions, .es-agent-list-page .search-box {
+    display: none;
+}
+
+.es-agent-list-page .es-input-row .es-submit-filter {
+    margin-left: 0;
+}
+
+.es-agent-list-page .es-input-row > label {
+    margin-left: 15px;
+}
+
+
+.es-agent-list-page tbody th.check-column {
+    padding: 3px 0 0 3px !important;
+}
+
+@media screen and (max-width: 782px) {
+    .es-agent-list-page tbody .column-username img{
+        position: relative;
+        left: 15px;
+    }
+}
+
+.es-agent-list-page .wp-list-table .column-id {
+    max-width: 50px;
+    width: 8%;
+}
+
+.es-agent-list-page .wp-list-table .column-rating {
+    width: 12%;
+}

@@ -1,0 +1,664 @@
+# Translation of Plugins - Central Color Palette - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Central Color Palette - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-02 08:59:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Central Color Palette - Stable (latest release)\n"
+
+#: index.php:2880
+msgid "Selector"
+msgstr "Sélecteur"
+
+#: index.php:2833
+msgid "Name Suffix"
+msgstr "Suffixe du nom"
+
+#: index.php:2832
+msgid "Name Prefix"
+msgstr "Préfixe du nom"
+
+#: index.php:2620
+msgid "CSS Name"
+msgstr "Nom du CSS"
+
+#: index.php:2613
+msgid "Name"
+msgstr "Nom"
+
+#: index.php:2600
+msgid "Color Code"
+msgstr "Code couleur"
+
+#: index.php:2487
+msgid "Oxygen"
+msgstr "Oxygen"
+
+#: index.php:2367
+msgid "Type"
+msgstr "Type"
+
+#: index.php:2237
+msgid "You need to use a device with a bigger screen to use the palette editor."
+msgstr "Vous devez utiliser un appareil avec un écran plus grand pour utiliser l’éditeur de palettes."
+
+#: index.php:2485
+msgid "GeneratePress"
+msgstr "GeneratePress"
+
+#: index.php:2474
+msgid "Add global CSS variables to the dashboard"
+msgstr "Ajouter des variables CSS globales au tableau de bord"
+
+#: index.php:2470
+msgid "Add global CSS variables to themes"
+msgstr "Ajouter des variables CSS globales aux thèmes"
+
+#: index.php:2488
+msgid "Suki only supports up to eight colors."
+msgstr "Suki supporte uniquement jusqu’à huit couleurs."
+
+#: index.php:2488
+msgid "Suki Theme"
+msgstr "Thème Suki"
+
+#: index.php:2825
+msgid "Add hexadecimal colors for compatibility"
+msgstr "Ajouter des couleurs hexadécimales pour la compatibilité"
+
+#: index.php:2602 index.php:2805
+msgid "Color Format"
+msgstr "Format de couleur"
+
+#: index.php:2797
+msgid "RGBA"
+msgstr "RGBA"
+
+#: index.php:2796
+msgid "RGB"
+msgstr "RGB"
+
+#: index.php:2795
+msgid "Hexadecimal only"
+msgstr "Uniquement hexadécimale"
+
+#. Author of the plugin
+msgid "Daniel Menzies"
+msgstr "Daniel Menzies"
+
+#: index.php:2681 index.php:2799
+msgid "HSLA"
+msgstr "HSLA"
+
+#: index.php:2680 index.php:2798
+msgid "HSL"
+msgstr "HSL"
+
+#: index.php:2679
+msgid "RGBA (percent)"
+msgstr "RGBA (pourcent)"
+
+#: index.php:2678
+msgid "RGBA (decimal)"
+msgstr "RGBA (décimal)"
+
+#: index.php:2677
+msgid "RGB (percent)"
+msgstr "RGB (pourcent)"
+
+#: index.php:2676
+msgid "RGB (decimal)"
+msgstr "RGB (décimal)"
+
+#: index.php:2675
+msgid "Hexadecimal"
+msgstr "Hexadécimal"
+
+#: index.php:2574
+msgid "loading..."
+msgstr "Chargement…"
+
+#: index.php:2484
+msgid "Mega Max Menu"
+msgstr "Mega Max Menu"
+
+#: index.php:2479
+msgid "Advanced Custom Fields"
+msgstr "Advanced Custom Fields"
+
+#: index.php:1189
+msgid "CSS Variables"
+msgstr "Variables CSS"
+
+#: index.php:2483
+msgid "FontPress"
+msgstr "FontPress"
+
+#: index.php:2460
+msgid "Enforce colors"
+msgstr "Appliquer les couleurs"
+
+#: index.php:2450
+msgid "Try this if your colors won't get applied to your theme"
+msgstr "Essayez ceci si vos couleurs ne s’appliquent pas à votre thème"
+
+#: index.php:2220
+msgid "API Documentation"
+msgstr "Documentation de l’API"
+
+#: index.php:1164
+msgid "Hestia Theme"
+msgstr "Thème Hestia"
+
+#: index.php:1165
+msgid "Neve Theme"
+msgstr "Thème Neve"
+
+#: index.php:2857
+msgid "Preview"
+msgstr "Aperçu"
+
+#: index.php:2835
+msgid "None"
+msgstr "Aucune"
+
+#: index.php:2833
+msgid "Class Suffix"
+msgstr "Suffixe de la classe"
+
+#: index.php:2832
+msgid "Class Prefix"
+msgstr "Préfixe de la classe"
+
+#: index.php:2770
+msgid "Upload Import"
+msgstr "Téléverser l’importation"
+
+#: index.php:2759
+msgid "Choose Import"
+msgstr "Choisissez l’importation"
+
+#: index.php:2751
+msgid "Currently only files in Backup and JSON format are supported."
+msgstr "Actuellement, seuls les fichiers aux formats sauvegarde et JSON sont pris en charge."
+
+#: index.php:2745
+msgid "Download Export"
+msgstr "Télécharger l’exportation"
+
+#: index.php:2734
+msgid "Options for %s"
+msgstr "Options pour %s"
+
+#: index.php:2705
+msgid "Format"
+msgstr "Format"
+
+#: index.php:2652
+msgid "Remove"
+msgstr "Retirer"
+
+#: index.php:2651
+msgid "Activate"
+msgstr "Activer"
+
+#: index.php:2650
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: index.php:2576
+msgid "No inactive colors"
+msgstr "Aucune couleur inactive"
+
+#: index.php:2567
+msgid "Inactive"
+msgstr "Inactive"
+
+#: index.php:2562
+msgid "Active"
+msgstr "Active"
+
+#: index.php:2509
+msgid "Add transparent colors to %s"
+msgstr "Ajouter des couleurs transparentes à %s"
+
+#: index.php:2466
+msgid "Add to classic editor"
+msgstr "Ajouter à l’éditeur classique"
+
+#: index.php:2458
+msgid "Append to existing palette"
+msgstr "Ajouter à la palette existante"
+
+#: index.php:2454
+msgid "Add to block editor"
+msgstr "Ajouter à l’éditeur de blocs"
+
+#: index.php:2273
+msgid "The uploaded file format is not supported."
+msgstr "Le format de fichier téléversé n’est pas pris en charge."
+
+#: index.php:2236
+msgid "You need to enable JavaScript to use the palette editor."
+msgstr "Vous devez activer JavaScript pour utiliser l’éditeur de palette."
+
+#: index.php:2192
+msgid "Classic Editor"
+msgstr "Éditeur classique"
+
+#: index.php:2187
+msgid "<strong>Add to block editor</strong> adds the palette to the color picker of the new block editor."
+msgstr "<strong>Ajouter à l’éditeur de blocs</strong> ajoute la palette au sélecteur de couleurs du nouvel éditeur de blocs."
+
+#: index.php:1253
+msgid "Classic Editor: Color Picker"
+msgstr "Éditeur classique : sélecteur de couleur"
+
+#: index.php:1203
+msgid "SCSS Variables"
+msgstr "Variables SCSS"
+
+#: index.php:1196
+msgid "SCSS Partial"
+msgstr "SCSS partiel"
+
+#: index.php:1183
+msgid "CSS"
+msgstr "CSS"
+
+#: index.php:1177
+msgid "JSON"
+msgstr "JSON"
+
+#. Description of the plugin
+msgid "Manage a site-wide central color palette for a uniform look'n'feel! Supports the new block editor, theme customizer and many themes and plugins."
+msgstr "Gérez une palette de couleurs centrale sur l’ensemble du site de manière uniforme ! Prend en charge le nouvel éditeur de blocs, l’outil de personnalisation du thème et de nombreux thèmes et extensions."
+
+#: index.php:1163
+msgid "Page Builder Framework"
+msgstr "Page Builder Framework"
+
+#: index.php:2480
+msgid "Astra Theme"
+msgstr "Thème Astra"
+
+#: index.php:2481
+msgid "Beaver Builder"
+msgstr "Braver Builder"
+
+#: index.php:2508
+msgid "Integrate with %s"
+msgstr "Intégrer avec %s"
+
+#: index.php:2486
+msgid "OceanWP"
+msgstr "OceanWP"
+
+#: index.php:2482
+msgid "Elementor"
+msgstr "Elementor"
+
+#: index.php:2607
+msgid "Transparency"
+msgstr "Transparence"
+
+#: index.php:2760
+msgid "Uploading"
+msgstr "Téléversement"
+
+#: index.php:2768
+msgid "Your device seems not to support file uploads. Open your import in a simple text editor and paste its content into this textfield."
+msgstr "Votre appareil ne semble pas prendre en charge le téléversement de fichier. Ouvrez votre importation dans un éditeur de texte simple et collez son contenu dans ce champ texte."
+
+#: index.php:2777
+msgid "Palette"
+msgstr "Palette"
+
+#: index.php:2615
+msgid "Automatic Name"
+msgstr "Nom automatique"
+
+#: index.php:2397
+msgid "Plane Axis"
+msgstr "Axe de plan"
+
+#: index.php:2355
+msgid "Luma"
+msgstr "Luma"
+
+#: index.php:2338
+msgid "Red-Green"
+msgstr "Rouge-vert"
+
+#: index.php:2337
+msgid "Green-Red"
+msgstr "Vert-rouge"
+
+#: index.php:2336
+msgid "Red-Blue"
+msgstr "Rouge-bleu"
+
+#: index.php:2335
+msgid "Blue-Red"
+msgstr "Bleu-rouge"
+
+#: index.php:2334
+msgid "Green-Blue"
+msgstr "Vert-bleu"
+
+#: index.php:2333
+msgid "Blue-Green"
+msgstr "Bleu-vert"
+
+#: index.php:2291
+msgid "Please select which parts you would like to backup."
+msgstr "Veuillez sélectionner quelles parties vous souhaitez sauvegarder."
+
+#: index.php:2272
+msgid "No data to process."
+msgstr "Aucune donnée à traiter."
+
+#: index.php:2271
+msgid "Backup successfully imported."
+msgstr "Sauvegarde bien importée."
+
+#: index.php:2179
+msgid "Wikipedia article about HSL color space"
+msgstr "Article Wikipedia sur l’espace colorimétrique HSL"
+
+#: index.php:2178
+msgid "HSL space"
+msgstr "Espace HSL"
+
+#: index.php:2177
+msgctxt "URL to wiki page about HSL"
+msgid "https://en.wikipedia.org/wiki/HSL_and_HSV"
+msgstr "https://en.wikipedia.org/wiki/HSL_and_HSV"
+
+#: index.php:2174
+msgid "Wikipedia article about RGB color space"
+msgstr "Article Wikipédia sur l’espace colorimétrique RVB"
+
+#: index.php:2173
+msgid "RGB cube"
+msgstr "Cube RGB"
+
+#: index.php:2172
+msgctxt "URL to wiki page about RGB"
+msgid "https://en.wikipedia.org/wiki/RGB_color_model"
+msgstr "https://en.wikipedia.org/wiki/RGB_color_model"
+
+#: index.php:1171 index.php:1254 index.php:2201
+msgid "Backup"
+msgstr "Sauvegarde"
+
+#: index.php:2295
+msgid "Export failed."
+msgstr "Échec de l’export."
+
+#: index.php:2293
+msgid "Could not convert settings."
+msgstr "Impossible de convertir les réglages."
+
+#: index.php:2292
+msgid "Could not pack settings into JSON."
+msgstr "Impossible de grouper les réglages dans un fichier JSON."
+
+#: index.php:2284
+msgid "Import failed."
+msgstr "Échec de l’importation."
+
+#: index.php:2274
+msgid "The uploaded file does not contain any useable data."
+msgstr "Le fichier téléversé ne contient aucune donnée utilisable."
+
+#: index.php:2282
+msgid "File upload stopped by PHP extension."
+msgstr "Téléchargement de fichier arrêté par l’extension PHP."
+
+#: index.php:2281
+msgid "Failed to write file to disk."
+msgstr "Échec de l’écriture du fichier sur le disque."
+
+#: index.php:2280
+msgid "Missing a temporary folder."
+msgstr "Un dossier temporaire manque."
+
+#: index.php:2279
+msgid "The uploaded file is too big. It is limited to %s."
+msgstr "Le fichier téléchargé est trop gros. Il est limité à %s."
+
+#: index.php:2278
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "Le fichier téléchargé dépasse la directive upload_max_filesize dans le fichier php.ini."
+
+#: index.php:2277
+msgid "The uploaded file was only partially uploaded."
+msgstr "Le fichier n’a été que partiellement téléversé."
+
+#: index.php:2276
+msgid "The uploaded file is empty."
+msgstr "Le fichier téléversé est vide."
+
+#: index.php:2275
+msgid "No file was uploaded."
+msgstr "Aucun fichier n’a été téléversé."
+
+#: index.php:2703
+msgid "Export"
+msgstr "Exporter"
+
+#: index.php:2753
+msgid "Import"
+msgstr "Importer"
+
+#. translators: %1$s selectbox for row or column, %2$s input for number
+#: index.php:2377
+msgid "Fill each %1$s with %2$s colors"
+msgstr "Remplissez chaque %1$s avec des couleurs %2$s"
+
+#: index.php:2375
+msgid "Spread colors evenly"
+msgstr "Répartir les couleurs uniformément"
+
+#: index.php:2342
+msgid "column"
+msgstr "colonne"
+
+#: index.php:2341
+msgid "row"
+msgstr "rangée"
+
+#: index.php:2214
+msgctxt "URL to support forums"
+msgid "https://wordpress.org/support/plugin/kt-tinymce-color-grid"
+msgstr "https://wordpress.org/support/plugin/kt-tinymce-color-grid"
+
+#: index.php:2213
+msgctxt "URL to plugin site"
+msgid "https://wordpress.org/plugins/kt-tinymce-color-grid"
+msgstr "https://wordpress.org/plugins/kt-tinymce-color-grid"
+
+#: index.php:2204
+msgid "Likewise you can <strong>import</strong> such a file into this or another install of WordPress by clicking <strong>Choose Backup</strong>. All current settings and your palette will be overwritten, so make sure you made a backup."
+msgstr "De même, vous pouvez <strong>importer</strong>un tel fichier dans cette installation WordPress ou une autre en cliquant sur <strong>Choisir une sauvegarde</strong>. Tous les réglages actuels et votre palette seront écrasés, alors assurez-vous d’avoir fait une sauvegarde."
+
+#: index.php:2203
+msgid "If you want to <strong>export</strong> all settings and your palette to a file you can do so by simply clicking <strong>Download Backup</strong> at the bottom of the editor and you will be prompted with a download."
+msgstr "Si vous souhaitez <strong>exporter</strong> tous les réglages et votre palette dans un fichier, vous pouvez le faire en cliquant simplement sur <strong>Télécharger une sauvegarde</strong> en bas de l’éditeur et vous serez invité à télécharger."
+
+#: index.php:2195
+msgid "<strong>Palette</strong> only takes the colors defined by the Central Palette."
+msgstr "<strong>Palette</strong> prend uniquement les couleurs définies par la palette centrale."
+
+#. Plugin Name of the plugin
+#: index.php:1137
+msgid "Central Color Palette"
+msgstr "Central Color Palette"
+
+#: index.php:2575
+msgid "Palette is empty"
+msgstr "La palette est vide"
+
+#: index.php:2427
+msgid "Add to Theme Customizer"
+msgstr "Ajouter à l’outil de personnalisation du thème"
+
+#: index.php:2396
+msgid "Block Size"
+msgstr "Dimension du bloc"
+
+#: index.php:2395
+msgid "Block Count"
+msgstr "Nombre de blocs"
+
+#: index.php:2392
+msgid "Columns"
+msgstr "Colonnes"
+
+#: index.php:2391
+msgid "Rows"
+msgstr "Rangées"
+
+#: index.php:2423
+msgid "Add Color"
+msgstr "Ajouter une couleur"
+
+#: index.php:2330
+msgid "big"
+msgstr "grand"
+
+#: index.php:2329
+msgid "medium"
+msgstr "moyen"
+
+#: index.php:2328
+msgid "small"
+msgstr "petit"
+
+#: index.php:3019
+msgid "Natural"
+msgstr "Naturel"
+
+#: index.php:3017
+msgid "Sine"
+msgstr "Sinus"
+
+#: index.php:3018
+msgid "Cubic"
+msgstr "Cubique"
+
+#: index.php:2325
+msgid "Linear"
+msgstr "Linéaire"
+
+#: index.php:2348
+msgid "Blocks"
+msgstr "Blocs"
+
+#: index.php:2347
+msgid "Rainbow"
+msgstr "Arc en ciel"
+
+#: index.php:2345
+msgid "Default"
+msgstr "Par défaut"
+
+#: index.php:2219
+msgid "Support Forums"
+msgstr "Forums de support"
+
+#: index.php:2218
+msgid "Visit plugin site"
+msgstr "Visiter le site de l’extension"
+
+#: index.php:2217
+msgid "For more information:"
+msgstr "Pour plus d’informations :"
+
+#: index.php:2211
+msgid "You can reorder an entry by pressing the <strong>page</strong> keys. To delete an entry press the <strong>delete</strong> or <strong>backspace</strong> key. If a color picker has focus use the <strong>arrow</strong> keys, and <strong>plus</strong> and <strong>minus</strong> to change the color."
+msgstr "Vous pouvez réorganiser une couleur en appuyant sur la touche <strong>page</strong>. Pour supprimer une entrée, appuyez sur la touche <strong>Supprimer</strong> ou <strong>Retour arrière</strong>. Si un sélecteur de couleur a une mise au point, utilisez les touches <strong>Flèche</strong>, <strong>Plus</strong>et <strong>Moins</strong> pour modifier la couleur."
+
+#: index.php:2210
+msgid "The palette editor consists of a toolbar and a list of entries. Every entry has a color picker, two text fields &mdash; one holding a hexadecimal representation of the color, and one for the name of the entry &mdash; and lastly a button to remove the entry."
+msgstr "L’éditeur de palette se compose d’une barre d’outils et d’une liste de couleurs. Chaque entrée comporte un sélecteur de couleur, deux champs de texte &mdash; l’une contenant une représentation hexadécimale de la couleur et l’autre le nom de la couleur &mdash; et enfin un bouton pour supprimer l’entrée."
+
+#: index.php:2186
+msgid "<strong>Add to Theme Customizer</strong> makes the palette available to the color picker of the Theme Customizer. This works by altering WordPress' color picker so every plugin using it receives the palette as well."
+msgstr "<strong>Ajouter à l’outil de personnalisation du thème</strong> rend la palette disponible pour le sélecteur de couleur de l’outil de personnalisation du thème. Cela fonctionne en modifiant le sélecteur de couleurs de WordPress pour que chaque extension l’utilisant reçoive également la palette."
+
+#: index.php:2188
+msgid "<strong>Add to classic editor</strong> adds the palette to the color picker of the classic editor. This only works if you choose a color grid other than <strong>Default</strong>."
+msgstr "<strong>Ajouter à l’éditeur classique</strong> ajoute la palette au sélecteur de couleur de l’éditeur classique. Cela fonctionne uniquement si vous choisissez une grille de couleurs autre que <strong>Par défaut</strong>."
+
+#: index.php:2185
+msgid "You can create a color palette and include it to the Visual Editor and/or the Theme Customizer."
+msgstr "Vous pouvez créer une palette de couleurs et l’inclure dans l’éditeur visuel et/ou l’outil de personnalisation du thème."
+
+#: index.php:508
+msgid "Central Palette"
+msgstr "Palette centrale"
+
+#: index.php:2197
+msgid "<strong>Blocks</strong> takes planes from the %s and places them next to one another. <strong>Block Count</strong> controls how many planes are taken, and <strong>Block Size</strong> determines their size."
+msgstr "<strong>Blocs</strong> prend les plans du %s et les place les uns à côté des autres. <strong>Nombre de blocs</strong> contrôle combien de plans sont pris, et <strong>Taille de bloc</strong> détermine leur dimension."
+
+#: index.php:2196
+msgid "<strong>Rainbow</strong> takes hue and lightness components from the %s and thus creates a rainbow. The <strong>Luma</strong> option controls how the lightness for each hue is spread."
+msgstr "<strong>Arc-en-ciel</strong> prend les composants de teinte et de densité du %s et crée ainsi un arc-en-ciel. L’option <strong>Luma</strong> contrôle la répartition de la luminosité pour chaque teinte."
+
+#: index.php:2194
+msgid "<strong>Default</strong> leaves TinyMCE's color picker untouched."
+msgstr "<strong>Par défaut</strong>, laisse le sélecteur de couleur de TinyMCE intact."
+
+#: index.php:2649
+msgid "Move down"
+msgstr "Déplacer vers le bas"
+
+#: index.php:2648
+msgid "Move up"
+msgstr "Déplacer vers le haut"
+
+#: index.php:1119 index.php:1128 index.php:1252 index.php:2183 index.php:2346
+msgid "Color Palette"
+msgstr "Palette de couleur"
+
+#. Author URI of the plugin
+msgid "http://profiles.wordpress.org/kungtiger"
+msgstr "http://profiles.wordpress.org/kungtiger"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/kt-tinymce-color-grid"
+msgstr "https://wordpress.org/plugins/kt-tinymce-color-grid"
+
+#: index.php:2251
+msgid "Save"
+msgstr "Enregistrer"
+
+#: index.php:2250
+msgctxt "accesskey for saving"
+msgid "S"
+msgstr "S"
+
+#: index.php:2422
+msgctxt "accesskey for adding color"
+msgid "A"
+msgstr "A"
+
+#: index.php:2776
+msgid "Settings"
+msgstr "Réglages"
+
+#: index.php:2208
+msgid "Accessibility"
+msgstr "Accessibilité"
+
+#: index.php:1119 index.php:1128
+msgid "Opens the settings page for this plugin"
+msgstr "Ouvre la page des réglages pour cette extension"
