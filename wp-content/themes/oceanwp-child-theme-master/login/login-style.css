@@ -1,0 +1,37 @@
+/* Personnalisation page de Connexion */
+body {
+    background: #ffffff;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+}
+.login h1 a {
+    background-size: 300px;
+    width: 300px;
+}
+
+#login h1 a, .login h1 a {
+    background-image: url(https://chaletscaviar.s-mansaly.fr/wp-content/uploads/2021/09/15632617541681_image1.png);
+}
+
+.login form {
+    border: 1px solid #ebc7a3;
+}
+
+.wp-core-ui .button-primary {
+    background: #d3b597;
+    border-color: #7a7166;
+    color: #000;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.wp-core-ui .button-primary:hover {
+    background: #f9ddbc;
+    border-color: #7a7166;
+    color: #000;
+}
+
+.wp-core-ui .button-primary:active {
+    background: #f9ddbc;
+    border-color: #7a7166;
+    color: #000;
+}

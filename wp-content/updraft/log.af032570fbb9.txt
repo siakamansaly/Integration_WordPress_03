@@ -1,0 +1,220 @@
+0000.001 (0) Opened log file at time: Sat, 02 Oct 2021 14:07:41 +0000 on https://chaletscaviar.s-mansaly.fr
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.61 WP: 5.8.1 PHP: 7.4.22 (fpm-fcgi, Linux h2web274 4.9.0-0.bpo.12-amd64 #1 SMP Debian 4.9.210-1+deb9u1~deb8u1 (2020-06-09) x86_64) MySQL: 10.4.21-MariaDB-1:10.4.21+maria~stretch-log (max packet size=67108864) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 40 memory_limit: 640M (used: 72.2M | 7M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 1345730.9 MB
+0000.009 (0) Tasks: Backup files: 0 (schedule: weekly) Backup DB: 1 (schedule: weekly)
+0000.012 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.015 (0) Set semaphore last lock (d) time to 2021-10-02 14:07:41
+0000.016 (0) Semaphore lock (d) complete
+0000.020 (0) Backup run: resumption=0, nonce=af032570fbb9, file_nonce=af032570fbb9 begun at=1633183661 (0s ago), job type=backup
+0000.022 (0) Scheduling a resumption (1) after 300 seconds (1633183961) in case this run gets aborted
+0000.032 (0) This backup run is not intended for files - skipping
+0000.033 (0) Beginning creation of database dump (WordPress DB)
+0000.035 (0) SQL compatibility mode is: IGNORE_SPACE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.043 (0) Table ocr_options: Total expected rows (approximate): 563
+0000.121 (0) Table ocr_options: Rows added in this batch (next record: 6331): 646 (uncompressed bytes in this segment=1247037) in 0.08 seconds
+0000.129 (0) Table ocr_options: finishing file(s) (2, 182.2 KB)
+0000.132 (0) Table ocr_users: Total expected rows (approximate): 4
+0000.136 (0) Table ocr_users: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1801) in 0.00 seconds
+0000.140 (0) Table ocr_users: finishing file(s) (2, 0.8 KB)
+0000.144 (0) Table ocr_usermeta: Total expected rows (approximate): 121
+0000.153 (0) Table ocr_usermeta: Rows added in this batch (next record: 127): 121 (uncompressed bytes in this segment=12413) in 0.01 seconds
+0000.161 (0) Table ocr_usermeta: finishing file(s) (2, 3.4 KB)
+0000.166 (0) Table ocr_commentmeta: Total expected rows (approximate): 0
+0000.171 (0) Table ocr_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.00 seconds
+0000.178 (0) Table ocr_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.182 (0) Table ocr_comments: Total expected rows (approximate): 0
+0000.187 (0) Table ocr_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1684) in 0.00 seconds
+0000.192 (0) Table ocr_comments: finishing file(s) (2, 0.5 KB)
+0000.197 (0) Table ocr_links: Total expected rows (approximate): 0
+0000.200 (0) Table ocr_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1272) in 0.00 seconds
+0000.204 (0) Table ocr_links: finishing file(s) (2, 0.5 KB)
+0000.208 (0) Table ocr_postmeta: Total expected rows (approximate): 1923
+0000.244 (0) Table ocr_postmeta: Rows added in this batch (next record: 10915): 1764 (uncompressed bytes in this segment=367637) in 0.03 seconds
+0000.250 (0) Table ocr_postmeta: finishing file(s) (2, 46.4 KB)
+0000.254 (0) Table ocr_posts: Total expected rows (approximate): 86
+0000.267 (0) Table ocr_posts: Rows added in this batch (next record: 1508): 85 (uncompressed bytes in this segment=91177) in 0.01 seconds
+0000.276 (0) Table ocr_posts: finishing file(s) (2, 16 KB)
+0000.280 (0) Table ocr_term_relationships: Total expected rows (approximate): 27
+0000.285 (0) Table ocr_term_relationships: Rows added in this batch (next record: 100000): 27 (uncompressed bytes in this segment=1092) in 0.00 seconds
+0000.290 (0) Table ocr_term_relationships: finishing file(s) (2, 0.5 KB)
+0000.294 (0) Table ocr_term_taxonomy: Total expected rows (approximate): 17
+0000.301 (0) Table ocr_term_taxonomy: Rows added in this batch (next record: 56): 17 (uncompressed bytes in this segment=3113) in 0.01 seconds
+0000.307 (0) Table ocr_term_taxonomy: finishing file(s) (2, 1.1 KB)
+0000.311 (0) Table ocr_termmeta: Total expected rows (approximate): 24
+0000.316 (0) Table ocr_termmeta: Rows added in this batch (next record: 34): 24 (uncompressed bytes in this segment=1670) in 0.00 seconds
+0000.322 (0) Table ocr_termmeta: finishing file(s) (2, 0.6 KB)
+0000.326 (0) Table ocr_terms: Total expected rows (approximate): 17
+0000.330 (0) Table ocr_terms: Rows added in this batch (next record: 56): 17 (uncompressed bytes in this segment=1306) in 0.00 seconds
+0000.334 (0) Table ocr_terms: finishing file(s) (2, 0.6 KB)
+0000.337 (0) Table ocr_actionscheduler_actions: Total expected rows (approximate): 47
+0000.343 (0) Table ocr_actionscheduler_actions: Rows added in this batch (next record: 54): 47 (uncompressed bytes in this segment=19017) in 0.00 seconds
+0000.348 (0) Table ocr_actionscheduler_actions: finishing file(s) (2, 2.4 KB)
+0000.351 (0) Table ocr_actionscheduler_claims: Total expected rows (approximate): 0
+0000.353 (0) Table ocr_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.00 seconds
+0000.357 (0) Table ocr_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.360 (0) Table ocr_actionscheduler_groups: Total expected rows (approximate): 3
+0000.362 (0) Table ocr_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=727) in 0.00 seconds
+0000.366 (0) Table ocr_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0000.369 (0) Table ocr_actionscheduler_logs: Total expected rows (approximate): 132
+0000.373 (0) Table ocr_actionscheduler_logs: Rows added in this batch (next record: 132): 132 (uncompressed bytes in this segment=11826) in 0.00 seconds
+0000.377 (0) Table ocr_actionscheduler_logs: finishing file(s) (2, 1.9 KB)
+0000.380 (0) Table ocr_address_components: Total expected rows (approximate): 7
+0000.383 (0) Table ocr_address_components: Rows added in this batch (next record: 14): 7 (uncompressed bytes in this segment=1066) in 0.00 seconds
+0000.387 (0) Table ocr_address_components: finishing file(s) (2, 0.5 KB)
+0000.390 (0) Table ocr_admin_columns: Total expected rows (approximate): 1
+0000.393 (0) Table ocr_admin_columns: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1967) in 0.00 seconds
+0000.396 (0) Table ocr_admin_columns: finishing file(s) (2, 0.7 KB)
+0000.399 (0) Table ocr_cli_cookie_scan: Total expected rows (approximate): 0
+0000.402 (0) Table ocr_cli_cookie_scan: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.00 seconds
+0000.405 (0) Table ocr_cli_cookie_scan: finishing file(s) (2, 0.4 KB)
+0000.408 (0) Table ocr_cli_cookie_scan_categories: Total expected rows (approximate): 0
+0000.411 (0) Table ocr_cli_cookie_scan_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=753) in 0.00 seconds
+0000.415 (0) Table ocr_cli_cookie_scan_categories: finishing file(s) (2, 0.4 KB)
+0000.418 (0) Table ocr_cli_cookie_scan_cookies: Total expected rows (approximate): 0
+0000.420 (0) Table ocr_cli_cookie_scan_cookies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1372) in 0.00 seconds
+0000.424 (0) Table ocr_cli_cookie_scan_cookies: finishing file(s) (2, 0.5 KB)
+0000.427 (0) Table ocr_cli_cookie_scan_url: Total expected rows (approximate): 0
+0000.429 (0) Table ocr_cli_cookie_scan_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0000.433 (0) Table ocr_cli_cookie_scan_url: finishing file(s) (2, 0.3 KB)
+0000.435 (0) Table ocr_cli_scripts: Total expected rows (approximate): 4
+0000.440 (0) Table ocr_cli_scripts: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1416) in 0.00 seconds
+0000.445 (0) Table ocr_cli_scripts: finishing file(s) (2, 0.6 KB)
+0000.448 (0) Table ocr_db7_forms: Total expected rows (approximate): 3
+0000.452 (0) Table ocr_db7_forms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1281) in 0.00 seconds
+0000.457 (0) Table ocr_db7_forms: finishing file(s) (2, 0.6 KB)
+0000.460 (0) Table ocr_fbuilder_fields: Total expected rows (approximate): 1
+0000.462 (0) Table ocr_fbuilder_fields: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1237) in 0.00 seconds
+0000.466 (0) Table ocr_fbuilder_fields: finishing file(s) (2, 0.6 KB)
+0000.469 (0) Table ocr_fbuilder_fields_order: Total expected rows (approximate): 12
+0000.472 (0) Table ocr_fbuilder_fields_order: Rows added in this batch (next record: 13): 12 (uncompressed bytes in this segment=1066) in 0.00 seconds
+0000.476 (0) Table ocr_fbuilder_fields_order: finishing file(s) (2, 0.5 KB)
+0000.480 (0) Table ocr_fbuilder_sections: Total expected rows (approximate): 0
+0000.482 (0) Table ocr_fbuilder_sections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=573) in 0.00 seconds
+0000.487 (0) Table ocr_fbuilder_sections: finishing file(s) (2, 0.3 KB)
+0000.490 (0) Table ocr_fbuilder_sections_order: Total expected rows (approximate): 0
+0000.492 (0) Table ocr_fbuilder_sections_order: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=532) in 0.00 seconds
+0000.496 (0) Table ocr_fbuilder_sections_order: finishing file(s) (2, 0.3 KB)
+0000.500 (0) Table ocr_shortpixel_folders: Total expected rows (approximate): 0
+0000.502 (0) Table ocr_shortpixel_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=925) in 0.00 seconds
+0000.506 (0) Table ocr_shortpixel_folders: finishing file(s) (2, 0.5 KB)
+0000.509 (0) Table ocr_tm_taskmeta: Total expected rows (approximate): 0
+0000.514 (0) Table ocr_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0000.519 (0) Table ocr_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0000.524 (0) Table ocr_tm_tasks: Total expected rows (approximate): 0
+0000.529 (0) Table ocr_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=878) in 0.00 seconds
+0000.535 (0) Table ocr_tm_tasks: finishing file(s) (2, 0.4 KB)
+0000.540 (0) Table ocr_wpmailsmtp_debug_events: Total expected rows (approximate): 0
+0000.542 (0) Table ocr_wpmailsmtp_debug_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0000.547 (0) Table ocr_wpmailsmtp_debug_events: finishing file(s) (2, 0.4 KB)
+0000.550 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_options.table.tmpr6332.gz (1/32/fopen): adding to final database dump
+0000.553 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_options.table.gz (2/32/fopen): adding to final database dump
+0000.554 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_users.table.tmpr5.gz (3/32/fopen): adding to final database dump
+0000.555 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_users.table.gz (4/32/fopen): adding to final database dump
+0000.555 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_usermeta.table.tmpr128.gz (5/32/fopen): adding to final database dump
+0000.556 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_usermeta.table.gz (6/32/fopen): adding to final database dump
+0000.557 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_commentmeta.table.tmpr0.gz (7/32/fopen): adding to final database dump
+0000.558 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_commentmeta.table.gz (8/32/fopen): adding to final database dump
+0000.559 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_comments.table.tmpr0.gz (9/32/fopen): adding to final database dump
+0000.560 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_comments.table.gz (10/32/fopen): adding to final database dump
+0000.561 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_links.table.tmpr0.gz (11/32/fopen): adding to final database dump
+0000.562 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_links.table.gz (12/32/fopen): adding to final database dump
+0000.563 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_postmeta.table.tmpr10916.gz (13/32/fopen): adding to final database dump
+0000.564 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_postmeta.table.gz (14/32/fopen): adding to final database dump
+0000.565 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_posts.table.tmpr1509.gz (15/32/fopen): adding to final database dump
+0000.567 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_posts.table.gz (16/32/fopen): adding to final database dump
+0000.568 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_term_relationships.table.tmpr100001.gz (17/32/fopen): adding to final database dump
+0000.570 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_term_relationships.table.gz (18/32/fopen): adding to final database dump
+0000.571 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_term_taxonomy.table.tmpr57.gz (19/32/fopen): adding to final database dump
+0000.572 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_term_taxonomy.table.gz (20/32/fopen): adding to final database dump
+0000.573 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_termmeta.table.tmpr35.gz (21/32/fopen): adding to final database dump
+0000.574 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_termmeta.table.gz (22/32/fopen): adding to final database dump
+0000.576 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_terms.table.tmpr57.gz (23/32/fopen): adding to final database dump
+0000.577 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_terms.table.gz (24/32/fopen): adding to final database dump
+0000.578 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_actionscheduler_actions.table.tmpr55.gz (25/32/fopen): adding to final database dump
+0000.579 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_actionscheduler_actions.table.gz (26/32/fopen): adding to final database dump
+0000.581 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_actionscheduler_claims.table.tmpr0.gz (27/32/fopen): adding to final database dump
+0000.582 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_actionscheduler_claims.table.gz (28/32/fopen): adding to final database dump
+0000.583 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_actionscheduler_groups.table.tmpr4.gz (29/32/fopen): adding to final database dump
+0000.584 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_actionscheduler_groups.table.gz (30/32/fopen): adding to final database dump
+0000.585 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_actionscheduler_logs.table.tmpr133.gz (31/32/fopen): adding to final database dump
+0000.586 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_actionscheduler_logs.table.gz (32/32/fopen): adding to final database dump
+0000.587 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_address_components.table.tmpr15.gz (33/32/fopen): adding to final database dump
+0000.587 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_address_components.table.gz (34/32/fopen): adding to final database dump
+0000.588 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_admin_columns.table.tmpr2.gz (35/32/fopen): adding to final database dump
+0000.589 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_admin_columns.table.gz (36/32/fopen): adding to final database dump
+0000.590 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_cli_cookie_scan.table.tmpr0.gz (37/32/fopen): adding to final database dump
+0000.591 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_cli_cookie_scan.table.gz (38/32/fopen): adding to final database dump
+0000.591 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_cli_cookie_scan_categories.table.tmpr0.gz (39/32/fopen): adding to final database dump
+0000.592 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_cli_cookie_scan_categories.table.gz (40/32/fopen): adding to final database dump
+0000.593 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_cli_cookie_scan_cookies.table.tmpr0.gz (41/32/fopen): adding to final database dump
+0000.594 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_cli_cookie_scan_cookies.table.gz (42/32/fopen): adding to final database dump
+0000.594 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_cli_cookie_scan_url.table.tmpr0.gz (43/32/fopen): adding to final database dump
+0000.595 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_cli_cookie_scan_url.table.gz (44/32/fopen): adding to final database dump
+0000.596 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_cli_scripts.table.tmpr5.gz (45/32/fopen): adding to final database dump
+0000.597 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_cli_scripts.table.gz (46/32/fopen): adding to final database dump
+0000.597 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_db7_forms.table.tmpr4.gz (47/32/fopen): adding to final database dump
+0000.598 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_db7_forms.table.gz (48/32/fopen): adding to final database dump
+0000.599 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_fbuilder_fields.table.tmpr3.gz (49/32/fopen): adding to final database dump
+0000.600 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_fbuilder_fields.table.gz (50/32/fopen): adding to final database dump
+0000.600 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_fbuilder_fields_order.table.tmpr14.gz (51/32/fopen): adding to final database dump
+0000.601 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_fbuilder_fields_order.table.gz (52/32/fopen): adding to final database dump
+0000.602 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_fbuilder_sections.table.tmpr0.gz (53/32/fopen): adding to final database dump
+0000.602 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_fbuilder_sections.table.gz (54/32/fopen): adding to final database dump
+0000.603 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_fbuilder_sections_order.table.tmpr0.gz (55/32/fopen): adding to final database dump
+0000.604 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_fbuilder_sections_order.table.gz (56/32/fopen): adding to final database dump
+0000.605 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_shortpixel_folders.table.tmpr0.gz (57/32/fopen): adding to final database dump
+0000.605 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_shortpixel_folders.table.gz (58/32/fopen): adding to final database dump
+0000.606 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_tm_taskmeta.table.tmpr0.gz (59/32/fopen): adding to final database dump
+0000.607 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_tm_taskmeta.table.gz (60/32/fopen): adding to final database dump
+0000.607 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_tm_tasks.table.tmpr0.gz (61/32/fopen): adding to final database dump
+0000.608 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_tm_tasks.table.gz (62/32/fopen): adding to final database dump
+0000.608 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_wpmailsmtp_debug_events.table.tmpr0.gz (63/32/fopen): adding to final database dump
+0000.609 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db-table-ocr_wpmailsmtp_debug_events.table.gz (64/32/fopen): adding to final database dump
+0000.612 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db.gz: finished writing out complete database file (266.1 KB)
+0000.618 (0) Total database tables backed up: 32 (backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db.gz, size: 272632, sha1: 8a054aeef190649743f09429b23ff48f0664de1e, sha256: 6e348b8238d60be34e40da73a10d349fd9416248710c56444486ed75862fc079)
+0000.624 (0) backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.625 (0) Saving backup history. Total backup size: 266.2 KB
+0000.628 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.630 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0000.631 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ac7c4a391970064e93dae894ac8b96db)
+0001.480 (0) Google Drive: quota usage: used=132.3 MB, total=15360 MB, available=15227.7 MB
+0001.482 (0) Google Drive: backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db.gz: Attempting to upload to Google Drive (into folder id: 1t20HXKRfpPHVZfOJa69qfj522GuE4Dgk)
+0002.626 (0) Googledrive chunked upload: 100 % uploaded
+0002.631 (0) Google Drive: OK: Archive backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db.gz uploaded in 1.15 seconds
+0002.632 (0) Recording as successfully uploaded: backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db.gz
+0002.635 (0) Deleting local file: backup_2021-10-02-1607_Chalets_et_Caviar_af032570fbb9-db.gz: OK
+0002.639 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0002.641 (0) Number of backup sets in history: 5; groups (db): 1
+0002.642 (0) Examining (for databases) backup set with group_id=0, nonce=af032570fbb9, datestamp=1633183661 (Oct 02 2021 14:07:41)
+0002.643 (0) This backup set is the backup set just made, so will not be deleted.
+0002.643 (0) Examining (for databases) backup set with group_id=0, nonce=5dbe5ba61ca1, datestamp=1633183653 (Oct 02 2021 14:07:33)
+0002.643 (0) This backup set (1633183653) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0002.643 (0) Examining (for databases) backup set with group_id=0, nonce=68d2cb4a0800, datestamp=1633183639 (Oct 02 2021 14:07:19)
+0002.643 (0) This backup set (1633183639) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0002.643 (0) Examining (for databases) backup set with group_id=0, nonce=08e6e2290773, datestamp=1633183630 (Oct 02 2021 14:07:10)
+0002.643 (0) This backup set (1633183630) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0002.643 (0) Examining (for databases) backup set with group_id=0, nonce=86b045240cc2, datestamp=1633183450 (Oct 02 2021 14:04:10)
+0002.643 (0) This backup set (1633183450) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0002.643 (0) Number of backup sets in history: 5; groups (files): 1
+0002.644 (0) Examining (for files) backup set with nonce=af032570fbb9, datestamp=1633183661 (Oct 02 2021 14:07:41)
+0002.644 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.644 (0) Examining (for files) backup set with nonce=5dbe5ba61ca1, datestamp=1633183653 (Oct 02 2021 14:07:33)
+0002.644 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.645 (0) Examining (for files) backup set with nonce=68d2cb4a0800, datestamp=1633183639 (Oct 02 2021 14:07:19)
+0002.645 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.645 (0) Examining (for files) backup set with nonce=08e6e2290773, datestamp=1633183630 (Oct 02 2021 14:07:10)
+0002.645 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.645 (0) Examining (for files) backup set with nonce=86b045240cc2, datestamp=1633183450 (Oct 02 2021 14:04:10)
+0002.645 (0) This backup set (1633183450) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0002.645 (0) This backup set (1633183450) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0002.645 (0) This backup set (1633183450) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0002.645 (0) This backup set (1633183450) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0002.645 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.646 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0002.649 (0) Resume backup (af032570fbb9, 0): finish run
+0002.651 (0) Decremented the semaphore (d) by 1
+0002.652 (0) Semaphore (d) unlocked
+0002.653 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0002.656 (0) The backup apparently succeeded and is now complete
+0002.656 (0) No email will/can be sent - the user has not configured an email address.
+0002.657 (0) La sauvegarde a apparemment réussi et est maintenant terminée

@@ -1,0 +1,468 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+/* Polices par défaut */
+
+body, .es-wrap * {
+    font-family: "Josefin Sans", "Open Sans", sans-serif;
+}
+
+/* Mise en forme par défaut des titres H2 */
+
+h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #c5aa90;
+}
+
+/* Mise en forme par défaut des lettres du titre Chalet et Caviar */
+
+.c_title {
+    color: #f9ddbc;
+}
+
+.elementor-image-box-title {
+    margin: 0;
+}
+
+/* Masquage affichage inutile */
+
+.screen-reader-text, #es-map-popup, .mfp-hide, .es-listing .es-property-inner .es-property-thumbnail .es-thumbnail .es-thumbnail-bottom, .es-map-link-wrap, .entry-header, .es-single-tabs-wrap, .thumbnail, .es-top-link, #mobile-dropdown #mobile-menu-search, .es-gallery br {
+    display: none;
+}
+
+/* Estatik - Rajouter la valeur "Par semaine" pour les locations uniquement */
+
+.es_category-location .es-property-info .es-price:after, .es_category-location .es-price .es-price:after, .es_category-location .es-dymanic-content .es-price:after {
+    content: " / semaine";
+    text-transform: lowercase;
+}
+
+.es-layout-1_col .properties:hover .es-details-wrap, .es-layout-2_col .properties:hover .es-details-wrap, .es-layout-3_col .properties:hover .es-details-wrap, .es-layout-3_col .es-property-inner:hover .es-details-wrap {
+    border: 0px solid #e5e5e5 !important;
+    position: relative;
+}
+
+/* Estatik grid - Bouton détail  */
+
+.es-read {
+    padding: 5% 10%;
+}
+
+.elementor-widget-divider .elementor-divider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* Menu mobile - mise en forme */
+
+#site-header.medium-header .oceanwp-mobile-menu-icon {
+    width: 100%;
+}
+
+/* CF7 - mise en forme */
+
+.wpcf7 .ajax-loader {
+    display: flex;
+    margin: auto;
+}
+
+/* Mise en forme bouton du formulaire de contact */
+
+.c_bouton {
+    width: 100% !important;
+}
+
+.contactform-sidebar .c_bouton {
+    width: 100% !important;
+    background-color: #f5f5f5 !important;
+    color: #000000 !important;
+}
+
+.contactform-sidebar .c_bouton:hover {
+    border: 1px solid #000000 !important;
+}
+
+.wpcf7-form input[type="text"], textarea, input[type="email"] {
+    background-color: #fff !important;
+    border: 1px solid #ccc;
+}
+
+/* Estatik grid - Mise en forme du bloc de l'ensemble des grid */
+
+.es-layout-3_col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.es-layout-list {
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Estatik grid - Mise en forme bouton Détail */
+
+.es-button-orange {
+    background: #c5aa90!important;
+}
+
+.es-button-orange:hover {
+    background: #c5aa902b!important;
+    color: #8D8071;
+}
+
+/* Estatik grid */
+
+.es-listing .es-property-inner .es-property-thumbnail .es-thumbnail img {
+    max-height: 250px;
+    width: 100%;
+}
+
+/* Estatik grid - Cadre des grid */
+
+.es-property-inner {
+    border: 1px solid #e2e2e2 !important;
+}
+
+/* Estatik grid - Redéfiniton de la marge du grid */
+
+.es-listing .es-property-inner {
+    margin: 0px !important;
+}
+
+/* Estatik grid - Changement couleur du texte des caractéristiques */
+
+.es-bottom-icon__list {
+    color: #000000;
+}
+
+/* Estatik grid - Changement couleur des icones des caractéristiques */
+
+.es-meta-icon {
+    filter: brightness(1);
+    -webkit-filter: brightness(1);
+}
+
+/* Estatik grid - Mise en forme du titre h2 d'un grid */
+
+.es-listing .es-property-inner .es-property-info h2 a {
+    background-color: #c5aa90;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'DR SUGIYAMA';
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.es-col-1 .es-col-view .es-price, .es-layout-1_col .es-col-view .es-price, .es-layout-2_col .es-col-view .es-price, .es-layout-3_col .es-col-view .es-price {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.es-layout-3_col .es-col-view .es-price {
+    padding: 10px 0;
+}
+
+/* Estatik grid - Mise en forme du grid */
+
+.es-layout-3_col .es-col-view, .es-layout-3_col .properties .es-property-thumbnail {
+    padding: 0px;
+}
+
+/* Estatik grid - Mise en forme du bloc Détail */
+
+.es-layout-3_col .properties .es-details-wrap, .es-layout-2_col .properties .es-details-wrap {
+    background-color: #ffffff !important;
+    display: block;
+}
+
+/* Estatik grid - Mise en forme du bloc Prix */
+
+.es-price {
+    background-color: #ffffff !important;
+}
+
+#main #content-wrap {
+    padding-top: 15px;
+}
+
+/* Estatik Page produit - Mise en forme titre de la page */
+
+h1.page-header-title {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h1.page-header-title::first-letter {
+    text-transform: capitalize !important;
+}
+
+.page_list_chalet .page-header-title
+{
+    font-family: "Josefin Sans" !important;
+    text-transform: uppercase !important;
+}
+
+/* Estatik Page produit - Retrait de la ligne vertical de séparation  */
+
+.content-area {
+    border-right-width: 0px;
+}
+
+/* Page mentions legales  */
+
+.mentions {
+    margin: 30px 0px;
+    border-left-width: 3px;
+    border-style: solid;
+    border-left-color: #f9ddbc;
+    font-size: 25px;
+    background-color: #f9ddbc;
+    color: #8D8071;
+    text-align: center;
+}
+
+.mentions-legales h2 {
+    font-size: 30px;
+}
+
+/* Footer page liste des chalets */
+
+.img_footer {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.img_footer:hover {
+    opacity: .5;
+}
+
+/* Estatik grid - Mise en forme des délimiteurs */
+
+.es-field-delimiter {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* Estatik dimensions image  */
+
+.slick-slide .slick-current .slick-active {
+    width: 705px !important;
+}
+
+.es-single .es-info .es-gallery {
+    max-width: 740px !important;
+}
+
+/* CF7 - Bouton */
+
+.mfp-close:hover {
+    background: none;
+}
+
+/* Estatik Page produit - Mise en forme catégorie et prix */
+
+.es-single .es-cat-price, #es-info {
+    display: flex;
+}
+
+.es-single .es-cat-price {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+/* Estatik Page produit - Modification ordre d'affichage des bloc */
+
+.es-tabbed, .es-single .es-info .es-property-fields ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#es-map {
+    order: 3;
+}
+
+.es-dymanic-content {
+    order: 2;
+    margin-top: 10px !important;
+}
+
+#es-description {
+    order: 1;
+}
+
+/* Estatik Page produit - Mise en forme de la description automatique Estatik */
+
+.es-dymanic-content a {
+    text-transform: lowercase;
+}
+
+/* Estatik Page produit - Taille de la carte Maps */
+
+#es-google-map {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estatik Page produit - Désactive le lien de la catégorie Estatik */
+
+.es-single .es-category-items a {
+    /*pointer-events: none;*/
+    cursor: default;
+    color: #ffffff !important;
+    font-size: 20px !important;
+    background-color: #f9ddbc;
+    padding: 5px 45px;
+}
+
+/* Estatik Page produit - Mise en forme du prix */
+
+.es-single .es-price {
+    background-color: #8D8071 !important;
+    color: #ffffff !important;
+    padding: 2px 15px !important;
+}
+
+/* Estatik Page produit - Mise en forme de la ville */
+
+.es-single .es-address {
+    text-align: center;
+}
+
+/* Estatik Page produit - Mise en forme du titre de la widget */
+
+.widget-title {
+    border-color: #c5aa90;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    border: 0;
+    color: #8D8071;
+    text-transform: uppercase;
+}
+
+/* Estatik Page produit - Réduction du padding de la sidebar */
+
+.widget-area.sidebar-primary {
+    padding-left: 20px;
+    border-right-width: 1px;
+}
+
+/* Estatik Page produit - Mise en forme sidebar */
+
+.contactform-sidebar {
+    border: 2px solid #f2f2f2;
+    border-radius: 12px;
+    padding: 5% 5% 0 5%;
+}
+
+.es-single .es-info .es-property-fields li {
+    margin: 0;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 0px 8px;
+}
+
+.es-single .es-info .es-property-fields li:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+.es-slide .es-slide__content {
+    padding: 7px;
+    background: #f5f5f5;
+    font-family: "Josefin Sans", "Open Sans", sans-serif;
+}
+
+/* Estatik - Description mise en forme responsive */
+
+@media screen and (max-width: 700px) {
+    #es-info {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 960px) {
+    .es-layout-3_col .properties {
+        width: calc((100% / 2) - 20px);
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .es-layout-3_col .properties, .es-layout-2_col .properties {
+        width: calc((100% / 1) - 20px);
+    }
+}
+
+/* Mise en forme iframe Google  */
+
+.frame_google {
+    border: 0;
+}
+
+/* Estatik Grid - Mise en forme layout 2 colonnes  */
+
+.es-layout-2_col .es-col-view, .es-layout-2_col .properties .es-property-thumbnail {
+    padding: 0;
+}
+
+/* Estatik Page produit - Rajout content avant le texte  */
+
+.es-address::before {
+    content: "Lieu : ";
+}
+
+/* Estatik Page produit - Rajout content avant le texte  */
+
+h2.screen-reader-text {
+    content: "Pagination" !important;
+}
+
+/* Estatik Page produit - Mise en forme contenu dynamique  */
+
+.es-dymanic-content .es-price {
+    background-color: unset !important;
+    color: #000 !important;
+    font-size: 19px;
+    padding: 0 !important;
+}
+
+/* Estatik Page produit - Mise en forme Slider  */
+
+*[id=es-slideshow__] .slick-list {
+    margin: 0 -10px;
+}
+
+.es-slide__image {
+    position: relative;
+}
+
+.es-slide__image .es-property-label-wrap {
+    top: 10px;
+}
+
+.es-slideshow__wrap, .widget_es_property_slideshow {
+    min-width: 0;
+    min-height: 0;
+}

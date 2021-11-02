@@ -1,0 +1,372 @@
+0000.000 (0) Opened log file at time: Sat, 02 Oct 2021 14:04:10 +0000 on https://chaletscaviar.s-mansaly.fr
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.61 WP: 5.8.1 PHP: 7.4.22 (fpm-fcgi, Linux h2web274 4.9.0-0.bpo.12-amd64 #1 SMP Debian 4.9.210-1+deb9u1~deb8u1 (2020-06-09) x86_64) MySQL: 10.4.21-MariaDB-1:10.4.21+maria~stretch-log (max packet size=67108864) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 40 memory_limit: 640M (used: 72.2M | 9M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 1345733.1 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.007 (0) Semaphore (fd, ocr_options) being initialised
+0000.010 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.012 (0) Set semaphore last lock (fd) time to 2021-10-02 14:04:10
+0000.013 (0) Semaphore lock (fd) complete
+0000.017 (0) Backup run: resumption=0, nonce=86b045240cc2, file_nonce=86b045240cc2 begun at=1633183450 (0s ago), job type=backup
+0000.020 (0) Scheduling a resumption (1) after 300 seconds (1633183750) in case this run gets aborted
+0000.035 (0) Checking if we have a zip executable available
+0000.037 (0) Creation of backups of directories: beginning
+0000.041 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.100 (0) Total entities for the zip file: 934 directories, 4947 files (0 skipped as non-modified), 84 MB
+0000.116 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.123 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.130 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.138 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.146 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.154 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.163 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.171 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.180 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.191 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.192 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.9 MB, 4947 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.567 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 1100 files added (on-disk size: 5197.5 KB)
+0001.577 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 1200 files added (on-disk size: 5197.5 KB)
+0001.589 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 1300 files added (on-disk size: 5197.5 KB)
+0001.600 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 1400 files added (on-disk size: 5197.5 KB)
+0001.621 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 1500 files added (on-disk size: 5197.5 KB)
+0001.634 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 1600 files added (on-disk size: 5197.5 KB)
+0001.647 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 1700 files added (on-disk size: 5197.5 KB)
+0001.662 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 4947 files batched, 792 (1793) added so far); re-opening (prior size: 5197.5 KB)
+0003.257 (0) A useful amount of data was added after this amount of zip processing: 2 s (normalised: 2 s, rate: 13089.7 KB/s)
+0003.259 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.9564108848572, normalised_time=1.9557381671504, max_time=3.2579910755157, data points known=1, old_max_bytes=26214400, new_max_bytes=80423035)
+0003.267 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 1800 files added (on-disk size: 12178.7 KB)
+0003.280 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 1900 files added (on-disk size: 12178.7 KB)
+0003.295 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 2000 files added (on-disk size: 12178.7 KB)
+0003.309 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 2100 files added (on-disk size: 12178.7 KB)
+0003.325 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 2200 files added (on-disk size: 12178.7 KB)
+0003.342 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 2300 files added (on-disk size: 12178.7 KB)
+0003.358 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 2400 files added (on-disk size: 12178.7 KB)
+0003.376 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 2500 files added (on-disk size: 12178.7 KB)
+0003.393 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 2600 files added (on-disk size: 12178.7 KB)
+0003.411 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 2700 files added (on-disk size: 12178.7 KB)
+0003.429 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.3 MB, 4947 files batched, 1001 (2794) added so far); re-opening (prior size: 12178.7 KB)
+0004.248 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 2800 files added (on-disk size: 17509.2 KB)
+0004.268 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 2900 files added (on-disk size: 17509.2 KB)
+0004.288 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 3000 files added (on-disk size: 17509.2 KB)
+0004.309 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 3100 files added (on-disk size: 17509.2 KB)
+0004.331 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 3200 files added (on-disk size: 17509.2 KB)
+0004.355 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 3300 files added (on-disk size: 17509.2 KB)
+0004.382 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 3400 files added (on-disk size: 17509.2 KB)
+0004.418 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 3500 files added (on-disk size: 17509.2 KB)
+0004.445 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 3600 files added (on-disk size: 17509.2 KB)
+0004.480 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 3700 files added (on-disk size: 17509.2 KB)
+0004.507 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.3 MB, 4947 files batched, 1001 (3795) added so far); re-opening (prior size: 17509.2 KB)
+0005.103 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 3800 files added (on-disk size: 20711.5 KB)
+0005.133 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 3900 files added (on-disk size: 20711.5 KB)
+0005.164 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 4000 files added (on-disk size: 20711.5 KB)
+0005.195 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 4100 files added (on-disk size: 20711.5 KB)
+0005.227 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 4200 files added (on-disk size: 20711.5 KB)
+0005.260 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 4300 files added (on-disk size: 20711.5 KB)
+0005.293 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 4400 files added (on-disk size: 20711.5 KB)
+0005.328 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 4500 files added (on-disk size: 20711.5 KB)
+0005.365 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 4600 files added (on-disk size: 20711.5 KB)
+0005.402 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 4700 files added (on-disk size: 20711.5 KB)
+0005.438 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.8 MB, 4947 files batched, 1001 (4796) added so far); re-opening (prior size: 20711.5 KB)
+0006.918 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 4800 files added (on-disk size: 25732.1 KB)
+0006.958 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip.tmp: 4900 files added (on-disk size: 25732.1 KB)
+0007.380 (0) Created plugins zip (0) - 26259.7 KB in 7.3 s (3578.8 KB/s) (sha1: 832d3f5412fc638f2a7dbaf1824ef00f0a0f2723, sha256: fbd5138f773dc6e2da7da05c3f74fb02538e3e7fb33163b94db7c8054592f57c)
+0007.385 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.401 (0) Total entities for the zip file: 119 directories, 625 files (0 skipped as non-modified), 15.3 MB
+0007.409 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.416 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.422 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.426 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.431 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.436 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0008.539 (0) Created themes zip (0) - 4594.8 KB in 1.2 s (3987.7 KB/s) (sha1: 23545bfb77e37fbc311a5bd63ed62ccccb515942, sha256: e2c328d083a0f517db71bef680c4184f8787e3e64590a940d9d599a8c324ccc0)
+0008.543 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.545 (0) Looking for candidates to backup in: /home/clients/183b0fb7b1ff6f19ef3dd39262658fd5/sites/chaletscaviar/wp-content/uploads
+0008.546 (0) finding files: 2021: adding to list (1)
+0008.547 (0) finding files: .shortpixel-q-1: adding to list (2)
+0008.548 (0) finding files: .htaccess: adding to list (3)
+0008.549 (0) finding files: ShortpixelBackups: adding to list (4)
+0008.551 (0) finding files: wpforms: adding to list (5)
+0008.552 (0) finding files: 2016: adding to list (6)
+0008.553 (0) finding files: elementor: adding to list (7)
+0008.555 (0) finding files: essential-addons-elementor: adding to list (8)
+0008.556 (0) finding files: backup: skipping: excluded by options (glob)
+0008.557 (0) finding files: wpcf7_uploads: adding to list (9)
+0008.558 (0) finding files: cfdb7_uploads: adding to list (10)
+0008.560 (0) finding files: wpo-plugins-tables-list.json: adding to list (11)
+0008.561 (0) finding files: smush-40e0e2c58cc024289cb8.log: adding to list (12)
+0008.562 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.572 (0) Total entities for the zip file: 16 directories, 285 files (0 skipped as non-modified), 100.5 MB
+0008.577 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.578 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 76.7 MB added on this batch (77.7 MB, 285 files batched, 111 (111) added so far); re-opening (prior size: 0 KB)
+0008.816 (0) A useful amount of data was added after this amount of zip processing: 0.5 s (normalised: 0.5 s, rate: 154531.8 KB/s)
+0008.818 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.5149040222168, normalised_time=0.50823269917522, max_time=8.8164451122284, data points known=1, old_max_bytes=80423035, new_max_bytes=209715200)
+0008.822 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-uploads.zip.tmp: 200 files added (on-disk size: 79588.4 KB)
+0010.306 (0) Created uploads zip (0) - 102152.3 KB in 1.7 s (58617.7 KB/s) (sha1: d1b4d66541241dc01a1c1a78dbea81e30c18e545, sha256: 484d84ff640d2f53dbdd07b6d656ffab40037975b44fb03c33928b6b463f8516)
+0010.309 (0) Beginning backup of other directories found in the content directory (index: 0)
+0010.310 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0010.311 (0) Looking for candidates to backup in: /home/clients/183b0fb7b1ff6f19ef3dd39262658fd5/sites/chaletscaviar/wp-content
+0010.311 (0) finding files: languages: adding to list (1)
+0010.313 (0) finding files: index.php: adding to list (2)
+0010.313 (0) finding files: plugins: skipping: this is the plugins directory
+0010.314 (0) finding files: themes: skipping: this is the themes directory
+0010.315 (0) finding files: uploads: skipping: this is the uploads directory
+0010.316 (0) finding files: upgrade: skipping: excluded by options
+0010.317 (0) finding files: .htaccess: adding to list (3)
+0010.317 (0) finding files: cache: skipping: excluded by options
+0010.318 (0) finding files: wpo-cache: adding to list (4)
+0010.319 (0) finding files: advanced-cache.php: adding to list (5)
+0010.320 (0) finding files: updraft: skipping: this is the updraft directory
+0010.323 (0) Total entities for the zip file: 5 directories, 102 files (0 skipped as non-modified), 4.8 MB
+0010.326 (0) Zip: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.781 (0) Created others zip (0) - 1362.7 KB in 0.5 s (2961.7 KB/s) (sha1: f3a9998132cbf1b7285010b7c642123a3eaf9fd6, sha256: 4bbab962e4c1a1edd449065bbd0a1b98d26c277fa55238b90c6c916d5b83bf82)
+0010.786 (0) Saving backup status to database (elements: 8)
+0010.790 (0) Beginning creation of database dump (WordPress DB)
+0010.791 (0) SQL compatibility mode is: IGNORE_SPACE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0010.799 (0) Table ocr_options: Total expected rows (approximate): 603
+0010.873 (0) Table ocr_options: Rows added in this batch (next record: 6325): 640 (uncompressed bytes in this segment=1242958) in 0.07 seconds
+0010.878 (0) Table ocr_options: finishing file(s) (2, 181.2 KB)
+0010.882 (0) Table ocr_users: Total expected rows (approximate): 4
+0010.885 (0) Table ocr_users: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1801) in 0.00 seconds
+0010.889 (0) Table ocr_users: finishing file(s) (2, 0.8 KB)
+0010.892 (0) Table ocr_usermeta: Total expected rows (approximate): 120
+0010.899 (0) Table ocr_usermeta: Rows added in this batch (next record: 126): 120 (uncompressed bytes in this segment=12361) in 0.01 seconds
+0010.904 (0) Table ocr_usermeta: finishing file(s) (2, 3.4 KB)
+0010.907 (0) Table ocr_commentmeta: Total expected rows (approximate): 0
+0010.910 (0) Table ocr_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.00 seconds
+0010.915 (0) Table ocr_commentmeta: finishing file(s) (2, 0.4 KB)
+0010.918 (0) Table ocr_comments: Total expected rows (approximate): 0
+0010.921 (0) Table ocr_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1684) in 0.00 seconds
+0010.925 (0) Table ocr_comments: finishing file(s) (2, 0.5 KB)
+0010.928 (0) Table ocr_links: Total expected rows (approximate): 0
+0010.930 (0) Table ocr_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1272) in 0.00 seconds
+0010.934 (0) Table ocr_links: finishing file(s) (2, 0.5 KB)
+0010.938 (0) Table ocr_postmeta: Total expected rows (approximate): 1923
+0010.975 (0) Table ocr_postmeta: Rows added in this batch (next record: 10915): 1764 (uncompressed bytes in this segment=367637) in 0.04 seconds
+0010.980 (0) Table ocr_postmeta: finishing file(s) (2, 46.4 KB)
+0010.982 (0) Table ocr_posts: Total expected rows (approximate): 86
+0010.993 (0) Table ocr_posts: Rows added in this batch (next record: 1508): 85 (uncompressed bytes in this segment=91177) in 0.01 seconds
+0010.998 (0) Table ocr_posts: finishing file(s) (2, 16 KB)
+0011.000 (0) Table ocr_term_relationships: Total expected rows (approximate): 27
+0011.003 (0) Table ocr_term_relationships: Rows added in this batch (next record: 100000): 27 (uncompressed bytes in this segment=1092) in 0.00 seconds
+0011.006 (0) Table ocr_term_relationships: finishing file(s) (2, 0.5 KB)
+0011.009 (0) Table ocr_term_taxonomy: Total expected rows (approximate): 17
+0011.014 (0) Table ocr_term_taxonomy: Rows added in this batch (next record: 56): 17 (uncompressed bytes in this segment=3113) in 0.00 seconds
+0011.019 (0) Table ocr_term_taxonomy: finishing file(s) (2, 1.1 KB)
+0011.022 (0) Table ocr_termmeta: Total expected rows (approximate): 24
+0011.028 (0) Table ocr_termmeta: Rows added in this batch (next record: 34): 24 (uncompressed bytes in this segment=1670) in 0.01 seconds
+0011.034 (0) Table ocr_termmeta: finishing file(s) (2, 0.6 KB)
+0011.039 (0) Table ocr_terms: Total expected rows (approximate): 17
+0011.044 (0) Table ocr_terms: Rows added in this batch (next record: 56): 17 (uncompressed bytes in this segment=1306) in 0.00 seconds
+0011.049 (0) Table ocr_terms: finishing file(s) (2, 0.6 KB)
+0011.052 (0) Table ocr_actionscheduler_actions: Total expected rows (approximate): 47
+0011.059 (0) Table ocr_actionscheduler_actions: Rows added in this batch (next record: 54): 47 (uncompressed bytes in this segment=19017) in 0.01 seconds
+0011.065 (0) Table ocr_actionscheduler_actions: finishing file(s) (2, 2.4 KB)
+0011.068 (0) Table ocr_actionscheduler_claims: Total expected rows (approximate): 0
+0011.070 (0) Table ocr_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.00 seconds
+0011.074 (0) Table ocr_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0011.077 (0) Table ocr_actionscheduler_groups: Total expected rows (approximate): 3
+0011.080 (0) Table ocr_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=727) in 0.00 seconds
+0011.084 (0) Table ocr_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0011.087 (0) Table ocr_actionscheduler_logs: Total expected rows (approximate): 132
+0011.091 (0) Table ocr_actionscheduler_logs: Rows added in this batch (next record: 132): 132 (uncompressed bytes in this segment=11826) in 0.00 seconds
+0011.095 (0) Table ocr_actionscheduler_logs: finishing file(s) (2, 1.9 KB)
+0011.098 (0) Table ocr_address_components: Total expected rows (approximate): 7
+0011.101 (0) Table ocr_address_components: Rows added in this batch (next record: 14): 7 (uncompressed bytes in this segment=1066) in 0.00 seconds
+0011.105 (0) Table ocr_address_components: finishing file(s) (2, 0.5 KB)
+0011.107 (0) Table ocr_admin_columns: Total expected rows (approximate): 1
+0011.110 (0) Table ocr_admin_columns: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1967) in 0.00 seconds
+0011.114 (0) Table ocr_admin_columns: finishing file(s) (2, 0.7 KB)
+0011.117 (0) Table ocr_cli_cookie_scan: Total expected rows (approximate): 0
+0011.120 (0) Table ocr_cli_cookie_scan: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.00 seconds
+0011.123 (0) Table ocr_cli_cookie_scan: finishing file(s) (2, 0.4 KB)
+0011.126 (0) Table ocr_cli_cookie_scan_categories: Total expected rows (approximate): 0
+0011.129 (0) Table ocr_cli_cookie_scan_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=753) in 0.00 seconds
+0011.136 (0) Table ocr_cli_cookie_scan_categories: finishing file(s) (2, 0.4 KB)
+0011.141 (0) Table ocr_cli_cookie_scan_cookies: Total expected rows (approximate): 0
+0011.145 (0) Table ocr_cli_cookie_scan_cookies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1372) in 0.00 seconds
+0011.151 (0) Table ocr_cli_cookie_scan_cookies: finishing file(s) (2, 0.5 KB)
+0011.156 (0) Table ocr_cli_cookie_scan_url: Total expected rows (approximate): 0
+0011.159 (0) Table ocr_cli_cookie_scan_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0011.165 (0) Table ocr_cli_cookie_scan_url: finishing file(s) (2, 0.3 KB)
+0011.168 (0) Table ocr_cli_scripts: Total expected rows (approximate): 4
+0011.174 (0) Table ocr_cli_scripts: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1416) in 0.00 seconds
+0011.179 (0) Table ocr_cli_scripts: finishing file(s) (2, 0.6 KB)
+0011.182 (0) Table ocr_db7_forms: Total expected rows (approximate): 3
+0011.187 (0) Table ocr_db7_forms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1281) in 0.00 seconds
+0011.192 (0) Table ocr_db7_forms: finishing file(s) (2, 0.6 KB)
+0011.195 (0) Table ocr_fbuilder_fields: Total expected rows (approximate): 1
+0011.199 (0) Table ocr_fbuilder_fields: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1237) in 0.00 seconds
+0011.204 (0) Table ocr_fbuilder_fields: finishing file(s) (2, 0.6 KB)
+0011.208 (0) Table ocr_fbuilder_fields_order: Total expected rows (approximate): 12
+0011.212 (0) Table ocr_fbuilder_fields_order: Rows added in this batch (next record: 13): 12 (uncompressed bytes in this segment=1066) in 0.00 seconds
+0011.217 (0) Table ocr_fbuilder_fields_order: finishing file(s) (2, 0.5 KB)
+0011.220 (0) Table ocr_fbuilder_sections: Total expected rows (approximate): 0
+0011.223 (0) Table ocr_fbuilder_sections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=573) in 0.00 seconds
+0011.227 (0) Table ocr_fbuilder_sections: finishing file(s) (2, 0.3 KB)
+0011.231 (0) Table ocr_fbuilder_sections_order: Total expected rows (approximate): 0
+0011.234 (0) Table ocr_fbuilder_sections_order: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=532) in 0.00 seconds
+0011.239 (0) Table ocr_fbuilder_sections_order: finishing file(s) (2, 0.3 KB)
+0011.242 (0) Table ocr_shortpixel_folders: Total expected rows (approximate): 0
+0011.245 (0) Table ocr_shortpixel_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=925) in 0.00 seconds
+0011.251 (0) Table ocr_shortpixel_folders: finishing file(s) (2, 0.5 KB)
+0011.257 (0) Table ocr_shortpixel_meta: Total expected rows (approximate): 0
+0011.263 (0) Table ocr_shortpixel_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1375) in 0.01 seconds
+0011.270 (0) Table ocr_shortpixel_meta: finishing file(s) (2, 0.6 KB)
+0011.275 (0) Table ocr_tm_taskmeta: Total expected rows (approximate): 0
+0011.281 (0) Table ocr_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0011.287 (0) Table ocr_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0011.291 (0) Table ocr_tm_tasks: Total expected rows (approximate): 0
+0011.296 (0) Table ocr_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=878) in 0.00 seconds
+0011.300 (0) Table ocr_tm_tasks: finishing file(s) (2, 0.4 KB)
+0011.304 (0) Table ocr_wpforms_tasks_meta: Total expected rows (approximate): 11
+0011.309 (0) Table ocr_wpforms_tasks_meta: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1512) in 0.01 seconds
+0011.315 (0) Table ocr_wpforms_tasks_meta: finishing file(s) (2, 0.6 KB)
+0011.319 (0) Table ocr_wpmailsmtp_debug_events: Total expected rows (approximate): 0
+0011.322 (0) Table ocr_wpmailsmtp_debug_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0011.326 (0) Table ocr_wpmailsmtp_debug_events: finishing file(s) (2, 0.4 KB)
+0011.330 (0) Table ocr_wpmailsmtp_tasks_meta: Total expected rows (approximate): 3
+0011.335 (0) Table ocr_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=909) in 0.00 seconds
+0011.340 (0) Table ocr_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.5 KB)
+0011.343 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_options.table.tmpr6326.gz (1/35/fopen): adding to final database dump
+0011.345 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_options.table.gz (2/35/fopen): adding to final database dump
+0011.346 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_users.table.tmpr5.gz (3/35/fopen): adding to final database dump
+0011.347 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_users.table.gz (4/35/fopen): adding to final database dump
+0011.347 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_usermeta.table.tmpr127.gz (5/35/fopen): adding to final database dump
+0011.348 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_usermeta.table.gz (6/35/fopen): adding to final database dump
+0011.349 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_commentmeta.table.tmpr0.gz (7/35/fopen): adding to final database dump
+0011.350 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_commentmeta.table.gz (8/35/fopen): adding to final database dump
+0011.350 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_comments.table.tmpr0.gz (9/35/fopen): adding to final database dump
+0011.351 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_comments.table.gz (10/35/fopen): adding to final database dump
+0011.352 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_links.table.tmpr0.gz (11/35/fopen): adding to final database dump
+0011.353 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_links.table.gz (12/35/fopen): adding to final database dump
+0011.353 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_postmeta.table.tmpr10916.gz (13/35/fopen): adding to final database dump
+0011.354 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_postmeta.table.gz (14/35/fopen): adding to final database dump
+0011.355 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_posts.table.tmpr1509.gz (15/35/fopen): adding to final database dump
+0011.356 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_posts.table.gz (16/35/fopen): adding to final database dump
+0011.357 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_term_relationships.table.tmpr100001.gz (17/35/fopen): adding to final database dump
+0011.357 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_term_relationships.table.gz (18/35/fopen): adding to final database dump
+0011.358 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_term_taxonomy.table.tmpr57.gz (19/35/fopen): adding to final database dump
+0011.358 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_term_taxonomy.table.gz (20/35/fopen): adding to final database dump
+0011.359 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_termmeta.table.tmpr35.gz (21/35/fopen): adding to final database dump
+0011.360 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_termmeta.table.gz (22/35/fopen): adding to final database dump
+0011.361 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_terms.table.tmpr57.gz (23/35/fopen): adding to final database dump
+0011.361 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_terms.table.gz (24/35/fopen): adding to final database dump
+0011.362 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_actionscheduler_actions.table.tmpr55.gz (25/35/fopen): adding to final database dump
+0011.363 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_actionscheduler_actions.table.gz (26/35/fopen): adding to final database dump
+0011.363 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_actionscheduler_claims.table.tmpr0.gz (27/35/fopen): adding to final database dump
+0011.364 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_actionscheduler_claims.table.gz (28/35/fopen): adding to final database dump
+0011.365 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_actionscheduler_groups.table.tmpr4.gz (29/35/fopen): adding to final database dump
+0011.365 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_actionscheduler_groups.table.gz (30/35/fopen): adding to final database dump
+0011.366 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_actionscheduler_logs.table.tmpr133.gz (31/35/fopen): adding to final database dump
+0011.367 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_actionscheduler_logs.table.gz (32/35/fopen): adding to final database dump
+0011.367 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_address_components.table.tmpr15.gz (33/35/fopen): adding to final database dump
+0011.368 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_address_components.table.gz (34/35/fopen): adding to final database dump
+0011.369 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_admin_columns.table.tmpr2.gz (35/35/fopen): adding to final database dump
+0011.369 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_admin_columns.table.gz (36/35/fopen): adding to final database dump
+0011.370 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_cli_cookie_scan.table.tmpr0.gz (37/35/fopen): adding to final database dump
+0011.371 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_cli_cookie_scan.table.gz (38/35/fopen): adding to final database dump
+0011.371 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_cli_cookie_scan_categories.table.tmpr0.gz (39/35/fopen): adding to final database dump
+0011.372 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_cli_cookie_scan_categories.table.gz (40/35/fopen): adding to final database dump
+0011.373 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_cli_cookie_scan_cookies.table.tmpr0.gz (41/35/fopen): adding to final database dump
+0011.373 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_cli_cookie_scan_cookies.table.gz (42/35/fopen): adding to final database dump
+0011.374 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_cli_cookie_scan_url.table.tmpr0.gz (43/35/fopen): adding to final database dump
+0011.375 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_cli_cookie_scan_url.table.gz (44/35/fopen): adding to final database dump
+0011.376 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_cli_scripts.table.tmpr5.gz (45/35/fopen): adding to final database dump
+0011.376 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_cli_scripts.table.gz (46/35/fopen): adding to final database dump
+0011.377 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_db7_forms.table.tmpr4.gz (47/35/fopen): adding to final database dump
+0011.378 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_db7_forms.table.gz (48/35/fopen): adding to final database dump
+0011.378 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_fbuilder_fields.table.tmpr3.gz (49/35/fopen): adding to final database dump
+0011.379 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_fbuilder_fields.table.gz (50/35/fopen): adding to final database dump
+0011.380 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_fbuilder_fields_order.table.tmpr14.gz (51/35/fopen): adding to final database dump
+0011.381 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_fbuilder_fields_order.table.gz (52/35/fopen): adding to final database dump
+0011.381 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_fbuilder_sections.table.tmpr0.gz (53/35/fopen): adding to final database dump
+0011.382 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_fbuilder_sections.table.gz (54/35/fopen): adding to final database dump
+0011.383 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_fbuilder_sections_order.table.tmpr0.gz (55/35/fopen): adding to final database dump
+0011.383 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_fbuilder_sections_order.table.gz (56/35/fopen): adding to final database dump
+0011.384 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_shortpixel_folders.table.tmpr0.gz (57/35/fopen): adding to final database dump
+0011.385 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_shortpixel_folders.table.gz (58/35/fopen): adding to final database dump
+0011.386 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_shortpixel_meta.table.tmpr0.gz (59/35/fopen): adding to final database dump
+0011.386 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_shortpixel_meta.table.gz (60/35/fopen): adding to final database dump
+0011.387 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_tm_taskmeta.table.tmpr0.gz (61/35/fopen): adding to final database dump
+0011.388 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_tm_taskmeta.table.gz (62/35/fopen): adding to final database dump
+0011.389 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_tm_tasks.table.tmpr0.gz (63/35/fopen): adding to final database dump
+0011.389 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_tm_tasks.table.gz (64/35/fopen): adding to final database dump
+0011.390 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_wpforms_tasks_meta.table.tmpr12.gz (65/35/fopen): adding to final database dump
+0011.390 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_wpforms_tasks_meta.table.gz (66/35/fopen): adding to final database dump
+0011.391 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_wpmailsmtp_debug_events.table.tmpr0.gz (67/35/fopen): adding to final database dump
+0011.392 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_wpmailsmtp_debug_events.table.gz (68/35/fopen): adding to final database dump
+0011.393 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_wpmailsmtp_tasks_meta.table.tmpr4.gz (69/35/fopen): adding to final database dump
+0011.393 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db-table-ocr_wpmailsmtp_tasks_meta.table.gz (70/35/fopen): adding to final database dump
+0011.396 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db.gz: finished writing out complete database file (266.7 KB)
+0011.408 (0) Total database tables backed up: 35 (backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db.gz, size: 273204, sha1: 9e46bad5eb40cc7ce3db73bb882861cc0b198044, sha256: a174a45e71c2be97163c0f40794b959a0ec6d2f8652494a0f24e99a25262cce7)
+0011.414 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0011.414 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0011.415 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0011.416 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0011.417 (0) backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0011.417 (0) Saving backup history. Total backup size: 131.5 MB
+0011.419 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0011.422 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0011.424 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ac7c4a391970064e93dae894ac8b96db)
+0012.021 (0) Google Drive: creating path: /UpdraftPlus
+0013.024 (0) Google Drive: quota usage: used=0.1 MB, total=15360 MB, available=15359.9 MB
+0013.026 (0) Google Drive: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip: Attempting to upload to Google Drive (into folder id: 1t20HXKRfpPHVZfOJa69qfj522GuE4Dgk)
+0013.545 (0) Googledrive chunked upload: 3.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 74.6 / 13)
+0013.782 (0) Googledrive chunked upload: 11.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 74.6 / 13)
+0014.058 (0) Googledrive chunked upload: 27.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 74.6 / 13)
+0014.372 (0) Googledrive chunked upload: 58.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 74.6 / 13)
+0015.499 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0015.504 (0) Google Drive: OK: Archive backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip uploaded in 2.48 seconds
+0015.506 (0) Recording as successfully uploaded: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip
+0015.514 (0) Deleting local file: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-plugins.zip: OK
+0015.882 (0) Google Drive: quota usage: used=25.7 MB, total=15360 MB, available=15334.3 MB
+0015.884 (0) Google Drive: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-themes.zip: Attempting to upload to Google Drive (into folder id: 1t20HXKRfpPHVZfOJa69qfj522GuE4Dgk)
+0016.465 (0) Googledrive chunked upload: 22.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 74.6 / 13)
+0016.710 (0) Googledrive chunked upload: 66.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 74.6 / 13)
+0017.705 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0017.711 (0) Google Drive: OK: Archive backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-themes.zip uploaded in 1.83 seconds
+0017.713 (0) Recording as successfully uploaded: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-themes.zip
+0017.718 (0) Deleting local file: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-themes.zip: OK
+0017.990 (0) Google Drive: quota usage: used=30.2 MB, total=15360 MB, available=15329.8 MB
+0017.992 (0) Google Drive: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-uploads.zip: Attempting to upload to Google Drive (into folder id: 1t20HXKRfpPHVZfOJa69qfj522GuE4Dgk)
+0018.454 (0) Googledrive chunked upload: 1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 74.6 / 13)
+0018.687 (0) Googledrive chunked upload: 3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 74.6 / 13)
+0018.949 (0) Googledrive chunked upload: 7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 74.6 / 13)
+0019.244 (0) Googledrive chunked upload: 15 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 74.6 / 13)
+0019.730 (0) Googledrive chunked upload: 31.1 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 74.6 / 13)
+0020.454 (0) Googledrive chunked upload: 63.2 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 74.6 / 13)
+0022.469 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0022.474 (0) Google Drive: OK: Archive backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-uploads.zip uploaded in 4.48 seconds
+0022.476 (0) Recording as successfully uploaded: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-uploads.zip
+0022.498 (0) Deleting local file: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-uploads.zip: OK
+0022.767 (0) Google Drive: quota usage: used=130 MB, total=15360 MB, available=15230 MB
+0022.769 (0) Google Drive: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-others.zip: Attempting to upload to Google Drive (into folder id: 1t20HXKRfpPHVZfOJa69qfj522GuE4Dgk)
+0023.255 (0) Googledrive chunked upload: 75.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 74.6 / 13)
+0024.147 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0024.152 (0) Google Drive: OK: Archive backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-others.zip uploaded in 1.38 seconds
+0024.153 (0) Recording as successfully uploaded: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-others.zip
+0024.157 (0) Deleting local file: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-others.zip: OK
+0024.439 (0) Google Drive: quota usage: used=131.3 MB, total=15360 MB, available=15228.7 MB
+0024.441 (0) Google Drive: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db.gz: Attempting to upload to Google Drive (into folder id: 1t20HXKRfpPHVZfOJa69qfj522GuE4Dgk)
+0025.588 (0) Googledrive chunked upload: 100 % uploaded
+0025.593 (0) Google Drive: OK: Archive backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db.gz uploaded in 1.15 seconds
+0025.594 (0) Recording as successfully uploaded: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db.gz
+0025.597 (0) Deleting local file: backup_2021-10-02-1604_Chalets_et_Caviar_86b045240cc2-db.gz: OK
+0025.602 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0025.604 (0) Number of backup sets in history: 1; groups (db): 1
+0025.605 (0) Examining (for databases) backup set with group_id=0, nonce=86b045240cc2, datestamp=1633183450 (Oct 02 2021 14:04:10)
+0025.606 (0) This backup set is the backup set just made, so will not be deleted.
+0025.606 (0) Number of backup sets in history: 1; groups (files): 1
+0025.607 (0) Examining (for files) backup set with nonce=86b045240cc2, datestamp=1633183450 (Oct 02 2021 14:04:10)
+0025.607 (0) This backup set is the backup set just made, so will not be deleted.
+0025.607 (0) This backup set is the backup set just made, so will not be deleted.
+0025.607 (0) This backup set is the backup set just made, so will not be deleted.
+0025.608 (0) This backup set is the backup set just made, so will not be deleted.
+0025.608 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0025.609 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0025.612 (0) Resume backup (86b045240cc2, 0): finish run
+0025.615 (0) Decremented the semaphore (fd) by 1
+0025.617 (0) Semaphore (fd) unlocked
+0025.618 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0025.622 (0) The backup apparently succeeded and is now complete
+0025.622 (0) No email will/can be sent - the user has not configured an email address.
+0025.623 (0) La sauvegarde a apparemment réussi et est maintenant terminée
