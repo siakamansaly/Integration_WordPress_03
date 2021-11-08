@@ -1,4 +1,3 @@
-# P2 OpenClassRooms
 Intégrer un thème Wordpress pour l'agence immobilière “Chalets et caviar” spécialisé dans la vente et la location de chalets de luxe
 -----
 
